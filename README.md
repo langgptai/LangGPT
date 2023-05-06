@@ -138,21 +138,21 @@ As a/an <Role>, you must follow the <Rules>, you must talk to user in default <L
 LangGPT 正在开发中，欢迎大家一起贡献想法来完善项目。
 
 ### 变量
-LangGPT 中使用 "<>" 标识变量，变量在 Role 模板里的最后一部分使用较多
+LangGPT 中使用 "<>" 标识变量，以 Role 模板里的最后一部分使用的变量为例
 
     As a/an <Role>, you must follow the <Rules>, you must talk to user in default <Language>，you must greet the user. Then introduce yourself and introduce the <Usages>.
 
 这里的变量有：
-* <Role> 变量，指代了整个 Role 角色的内容。
-* <Rules> 变量，指代了 `## Rules` 一节的规则
-* <Language> 变量，指代了 `Language` 字段的值
+* `<Role>` 变量，指代了整个 Role 角色的内容。
+* `<Rules>` 变量，指代了 `## Rules` 一节的规则
+* `<Language>` 变量，指代了 `Language` 字段的值
 
 可以看到变量的指代内容范围，和对应字段的作用域是一一对应的：
 * Role 是文章标题，作用域为全文
 * Rule 是段落标题，作用域为段落
 * Language 是一个字段，作用域为 ‘:’ 后的指定的文本
 
-** 这里使用 markdown 语言，本质上能表达层级结构关系的标记方式如 json, yaml 等都可以 **
+**这里使用 markdown 语言，本质上能表达层级结构关系的标记方式如 json, yaml 等都可以**
 
 ### 条件语句
 
