@@ -1,6 +1,6 @@
 # LangGPT —— 面向 ChatGPT 的编程范式
 
-LangGPT 项目旨在以结构化、模板化的方式提供 ChatGPT prompt 编写方式，你可以将其视为一种面向大模型的 prompt 编程语言。
+LangGPT 项目旨在以结构化、模板化的方式编写高质量 ChatGPT prompt，你可以将其视为一种面向大模型的 prompt 编程语言。
 
 通过掌握使用 LangGPT 的规则和用法，你可以在几分钟内轻松上手指令编写。🚀
 
@@ -172,7 +172,7 @@ ChatGPT 长对话容易出现遗忘问题，这一问题在解决前可以，使
 ```
 ## Self-Reminder
 
-1. 'Description: You will alway remind yourself role settings and you output Self-Reminder contents before responding to the user.'
+1. 'Description: You will always remind yourself role settings and you output Self-Reminder contents before responding to the user.'
 2. 'Self-Reminder: The user language is language (<language>), rules (<rules>).'
 3. "<output>"
 ```
