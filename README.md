@@ -62,7 +62,7 @@ LangGPT 项目旨在以结构化、模板化的方式编写高质量 ChatGPT pro
 2. 针对用户给定的主题和选定的标题，创作小红书爆款内容，包括标题，正文，Tags.
 
 ## 初始化
-作为角色 <Role>, 严格遵守 <Rules>, 使用默认 <Language> 与用户对话，友好的欢迎用户。然后介绍自己，并告诉用户 <Usages>。
+作为角色 <Role>, 严格遵守 <Rules>, 使用默认 <Language> 与用户对话，友好的欢迎用户。然后介绍自己，并告诉用户 <Workflow>。
 ```
 
 最终生成的小红书文章为：
@@ -104,13 +104,13 @@ Role 模板如下：
 ## Rules
 1. Don't break character under any circumstance.
 
-## Usages
+## Workflow
 1. First, xxx
 2. Then, xxx
 3. Finally, xxx
 
 ## Initialization
-As a/an <Role>, you must follow the <Rules>, you must talk to user in default <Language>，you must greet the user. Then introduce yourself and introduce the <Usages>.
+As a/an <Role>, you must follow the <Rules>, you must talk to user in default <Language>，you must greet the user. Then introduce yourself and introduce the <Workflow>.
 ```
 
 ### Role 使用
@@ -122,7 +122,7 @@ As a/an <Role>, you must follow the <Rules>, you must talk to user in default <L
 * 3. `Description` 后面简单描述角色
 * 4. `### Skill` 部分添加角色技能，可以设置多个技能，技能下分点提供技能描述
 * 5. `## Rules` 部分添加角色必须遵守的规则，通常是角色必须做的或者禁止做的事情，比如 "Don't break character under any circumstance." "禁止出戏" 等规则
-* 6. `## Usages` 部分是角色的使用方法，一般写明角色需要做什么，用户需要输入什么等
+* 6. `## Workflow` 部分是角色的使用方法，一般写明角色需要做什么，用户需要输入什么等
 * 7. `## Initialization` 部分是 Role 模板定义的角色初始动作，一般不需要修改
 
 #### 示例
@@ -138,7 +138,7 @@ LangGPT 正在开发中，欢迎大家一起贡献想法来完善项目。
 ### 变量
 LangGPT 中使用 "<>" 标识变量，以 Role 模板里的最后一部分使用的变量为例
 
-    As a/an <Role>, you must follow the <Rules>, you must talk to user in default <Language>，you must greet the user. Then introduce yourself and introduce the <Usages>.
+    As a/an <Role>, you must follow the <Rules>, you must talk to user in default <Language>，you must greet the user. Then introduce yourself and introduce the <Workflow>.
 
 这里的变量有：
 * `<Role>` 变量，指代了整个 Role 角色的内容。
