@@ -59,9 +59,9 @@ LangGPT 项目旨在以结构化、模板化的方式编写高质量 ChatGPT pro
 ### 更多例子
 上面的诗人 Prompt 就是通过用 LangGPT 的 Role 模板设计的。 `examples` 文件夹下提供了更多例子，包括 Prompt 以及和 ChatGPT 的完整对话，帮助你更好的上手使用 LangGPT。
 
-* [小红书爆款生成器](examples/chinese_xiaohongshu_writer/Prompt_chinese_xiaohongshu_writer.md)
-* [编程大师 CAN](examples/code_anything_now/prompt_can.md)
-* [健身计划制订专家](examples/Make_Custom_Fitness_Plan/Prompt_Health.md)
+* [小红书爆款生成器](examples\chinese_xiaohongshu_writer\ChatGPT-小红书爆款生成器对话.md)
+* [编程大师 CAN](examples\code_anything_now\ChatGPT-CAN_zh.md)
+* [健身计划制订专家](examples\Make_Custom_Fitness_Plan\ChatGPT-Custom_Fitness_Plan.md)
 
 ## Role 模板
 上面的例子都是使用 Role 模板编写的， Role 模板是 LangGPT 的核心。
