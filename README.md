@@ -228,3 +228,6 @@ The project is currently in its early and primitive stages, with a significant w
 
 If you are not familiar with using GitHub, you can refer to:
 [GitHub Minimal Contribution Guide: Issue and PR](https://github.com/datawhalechina/DOPMC/blob/main/GITHUB.md)
+
+## Acknowledgments
+* [Mr.-Ranedeer-AI-Tutor](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor) This project provided great prompts, which inspired the creation of this project!
