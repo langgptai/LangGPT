@@ -10,22 +10,19 @@
 
 [【中文文档】](README_zh.md)
 
-
-The LangGPT project aims to facilitate the seamless creation of high-quality ChatGPT prompts for everyone by utilizing a structured, template-based methodology. View it as a programming language specifically crafted for designing prompts for large language models.
+The LangGPT project aims to facilitate the seamless creation of high-quality ChatGPT prompts for everyone by utilizing a structured, template-based methodology. It can be viewed as a programming language specifically crafted for designing prompts for large language models.
 
 Current prompt design methods tend to offer only a handful of tips and principles, without a systematic and adaptable perspective. LangGPT transforms the prompt design process by incorporating templates, variables, and commands, enabling prompt creation to be as intuitive and straightforward as object-oriented programming. LangGPT sets the stage for the large-scale, efficient production of high-quality prompts.
 
 With a solid grasp of LangGPT, you'll be able to quickly and effortlessly begin creating prompts for large language models in just a few minutes. 🚀
 
 ## Prerequisites
-* Markdown; if you're not familiar with it, you can refer to this [Markdown Tutorial](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). (JSON, YAML, and other formats are also acceptable; contributions are welcome)
+* Markdown. If you're not familiar with it, you can refer to this [Markdown Tutorial](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). (JSON, YAML, and other formats are also acceptable; contributions are welcome)
 * GPT-4 is preferred
 
 ## Getting Started
 
 Here, we provide a small `FitnessGPT` example to help you quickly get started with LangGPT. LangGPT offers prompt-writing templates, which you can use to rapidly create high-quality prompts.
-
-Here is the `FitnessGPT: Create personal diet and exercise plan for you` example:
 
 ```
 # Role: FitnessGPT
