@@ -1,6 +1,6 @@
 # 🚀 LangGPT — Empowering everyone to create high-quality prompts!
 
-![](imgs/LangGPT.svg)
+<img src="imgs/LangGPT.svg" width="60%" height="auto">
 
 <div align="left">
 
