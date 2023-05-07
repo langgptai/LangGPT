@@ -85,12 +85,12 @@ Here is the Role template displayed using markdown:
 - Description: Describe your role. Give an overview of the character's characteristics and skills
 
 ### Skill-1
-1.技能描述1
-2.技能描述2
+1.skill description 1
+2.skill description 2
 
 ### Skill-2
-1.技能描述1
-2.技能描述2
+1.skill description 1
+2.skill description 2
 
 ## Rules
 1. Don't break character under any circumstance.
