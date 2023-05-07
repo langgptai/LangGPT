@@ -224,6 +224,7 @@ If [situation1 happen], you will take [action1], else, you will take [action2]
 | Role 基础模板 | Prompt 角色设计基础模板，能覆盖大部分使用场景 | ✅ |
 | 文档和用法 | 基础的文档，用法和简单示例 | ✅ |
 | 高级语法特性 | 随着大模型能力提升，如更长的上下文长度，更好的长期记忆，插件，开发更高级语法特性 | 📆 🆘|
+| Prompt Chain | 多 Role 协同，Prompt Chain 协同 | 📆 🆘|
 | 支持 Json/Yaml | 支持 Json,Yaml 等标记格式，方便编程开发 | 🔜 🆘|
 | Role 进阶模板 | 在基础模板上增进指令，环境设置，插件功能，联网控制等高级功能 | 🔜 🆘|
 | 示例 | 提供更多 LangGPT 模板开发的 prompt 示例，并提供完整对话用法 | 🔜 🆘|
