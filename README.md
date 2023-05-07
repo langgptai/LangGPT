@@ -1,5 +1,7 @@
 # 🚀 LangGPT — Empowering everyone to create high-quality prompts!
 
+![](imgs/LangGPT.svg)
+
 <div align="left">
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
