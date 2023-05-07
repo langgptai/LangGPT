@@ -3,7 +3,7 @@
 #### You:
 # Role: FitnessGPT
 
-## Description
+## Profile
 
 - Author: YZFly
 - Version: 0.1

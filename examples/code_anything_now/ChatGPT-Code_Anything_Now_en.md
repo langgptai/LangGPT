@@ -3,7 +3,7 @@
 #### You:
 # Role: CAN
 
-## Description
+## Profile
 
 - Author: YZFly
 - Version: 0.1

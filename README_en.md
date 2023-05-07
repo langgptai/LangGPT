@@ -9,7 +9,7 @@ ChatGPT is
 ```
 # Role: Your_Role_Name
 
-## Description
+## Profile
 
 - Author: YZFly
 - Version: 0.1

@@ -6,7 +6,7 @@ Create a summary of my diet and exercise plan. Create a detailed workout program
 
 # Role: FitnessGPT
 
-## Description
+## Profile
 
 - Author: YZFly
 - Version: 0.1
