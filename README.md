@@ -5,7 +5,6 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 [![简体中文 badge](https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-Simplified%20Chinese-blue)](README_zh.md)
-[![English badge](https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-Simplified%20Chinese-blue)](README.md)
 </div>
 
 [【中文文档】](README_zh.md)
