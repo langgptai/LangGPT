@@ -201,29 +201,30 @@ Maybe ChatGPT could assist in creating a conversion script?
 
 ## 🤩 Development Plan
 
-The project is currently in a very early and primitive stage, with a heavy workload. We warmly welcome interested and capable individuals to participate in the project! 🆘
+The project is currently in its early and primitive stages, with a significant workload. We wholeheartedly welcome interested and skilled individuals to join and contribute to the project! 🆘
 
 | Task | Description | Status |
 | --- | --- | --- |
-| Role Basic Template | Basic Prompt role design template, covering most use cases | ✅ |
-| Documentation and Usage | Basic documentation, usage, and simple examples | ✅ |
-| Advanced Syntax Features | As large model capabilities improve, such as longer context length, better long-term memory, plugins, develop more advanced syntax features | 📆 🆘|
-| Prompt Chain | Multi-Role collaboration, Prompt Chain collaboration | 📆 🆘|
-| Support for Json/Yaml | Support for Json, Yaml, and other markup formats to facilitate development | 🔜 🆘|
-| Role Advanced Template | Enhance the basic template with commands, environment settings, plugin functionality, network control, and other advanced features | 🔜 🆘|
-| Examples | Provide more LangGPT template-based prompt examples and complete conversation usage | 🔜 🆘|
-| Documentation | Improve documentation and refine usage | 🔜 🆘|
-| Website | Showcase documentation and examples | 📆 🆘|
+| Role Basic Template | Basic Prompt role design template, encompassing a majority of use cases | ✅ |
+| Documentation and Usage | Fundamentals of documentation, usage, and simple examples | ✅ |
+| Advanced Syntax Features | Develop more advanced syntax features alongside improvements in large model capabilities, such as longer context lengths, better long-term memory, and plugins | 📆 🆘|
+| Prompt Chain | Collaboration between multi-role and prompt chains | 📆 🆘|
+| Support for JSON/YAML | Support for JSON, YAML, and other markup formats to streamline development | 🔜 🆘|
+| Role Advanced Template | Build upon the basic template by incorporating commands, environment settings, plugin functionality, network control, and other advanced features | 🔜 🆘|
+| Examples | Supply more LangGPT template-based prompt examples and comprehensive conversation usage | 🔜 🆘|
+| Documentation | Enhance documentation and perfect usage | 🔜 🆘|
+| Website | Display documentation and examples for easy access | 📆 🆘|
 
 ## Contribution Guidelines
 
-1. Please feel free to share and spread the word about the LangGPT project, enabling more people to write better prompts and expand the influence of the LangGPT project!
-2. We welcome the development of interesting Prompts using the LangGPT Role template and encourage the submission of high-quality examples!
-3. We welcome contributions beyond the Role template, such as additional templates!
-4. Help improve project documentation by correcting typos, grammar errors, and more!
-5. Assist in building the project website!
-6. Provide access to ChatGPT plugin capabilities for development testing!
-7. We appreciate any and all actions that benefit the LangGPT project!
+1. Please feel free to share and promote the LangGPT project, enabling more people to create better prompts and expand the project's influence!
+2. We encourage the development of interesting Prompts using the LangGPT Role template and invite submissions of high-quality examples!
+3. Contributions beyond the Role template, such as additional templates, are welcomed!
+4. Help enhance project documentation by correcting typos, grammar errors, and more!
+5. Assist in building the project website for better accessibility!
+6. Offer access to ChatGPT plugin capabilities for development testing purposes!
+7. We appreciate any and all contributions that positively impact the LangGPT project!
+
 
 If you are not familiar with using GitHub, you can refer to:
 [GitHub Minimal Contribution Guide: Issue and PR](https://github.com/datawhalechina/DOPMC/blob/main/GITHUB.md)
