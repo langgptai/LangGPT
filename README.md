@@ -139,9 +139,9 @@ As people continue to explore the capabilities of large models, LangGPT is still
 
 ### Variables
 
-**Variables bring great flexibility to Prompt writing. They make it easy to reference role content, set, and change role attributes.**
+**Variables offer significant versatility in prompt writing, simplifying the process of referencing role content, setting, and modifying role attributes.**
 
-This is something that general prompt methods struggle to implement.
+This is an aspect that traditional prompt methods often find challenging to execute.
 
 The `Initialization` part of the Role template makes extensive use of variables:
 
@@ -159,7 +159,7 @@ Markdown's hierarchical structure allows ChatGPT to easily identify the content 
 
 ### Commands
 
-Commands make it easy to set some default actions, such as `"/help" to provide help documentation, "/continue" to continue writing text` etc. which are all very useful commands.
+`Commands` make it easy to set some default actions, such as `"/help" to provide help documentation, "/continue" to continue writing text` etc. which are all very useful commands.
 
 * Use '/' as the convention to indicate commands.
 * Add the following content to the Role template:
@@ -173,9 +173,9 @@ Commands make it easy to set some default actions, such as `"/help" to provide h
 
 ### Reminder
 
-Using a Reminder can help alleviate ChatGPT's forgetting issue.
+Using a `Reminder` can help alleviate ChatGPT's forgetting issue.
 
-Add a Reminder to the Role template:
+Add a `Reminder` to the Role template:
 
 ```
 ## Reminder
@@ -193,9 +193,9 @@ If [situation1 happen], you will take [action1], else, you will take [action2]
 
 ### Json or Yaml for Convenient Program Development
 
-**LangGPT currently uses markdown language, but any markup method that can express hierarchical relationships, such as json, yaml, etc. can be used.**
+**Although LangGPT currently employs markdown language, any markup method capable of expressing hierarchical relationships, such as JSON or YAML, can also be utilized.**
 
-Perhaps ChatGPT could help write a conversion script?
+Maybe ChatGPT could assist in creating a conversion script?
 
 ### Others (TBD)
 
