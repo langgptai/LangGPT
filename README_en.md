@@ -131,3 +131,93 @@ Additionally, if you need to incorporate complex prompts with commands, memory, 
 
 As people continue to explore the capabilities of large models, LangGPT is still under development and refinement. Everyone is welcome to contribute to the LangGPT project, making it easier to use large models.
 
+### Variables
+
+**Variables bring great flexibility to Prompt writing. They make it easy to reference role content, set, and change role attributes.**
+
+This is something that general prompt methods struggle to implement.
+
+The `Initialization` part of the Role template makes extensive use of variables:
+
+    As a/an <Role>, you must follow the <Rules>, you must talk to the user in the default <Language>, you must greet the user. Then introduce yourself and introduce the <Workflow>.
+
+In LangGPT, variables are indicated by "<>". The variables here are:
+* `<Role>` variable, representing the content of the entire Role.
+* `<Rules>` variable, representing the rules in the `## Rules` section.
+* `<Language>` variable, representing the value of the `Language` field.
+
+Markdown's hierarchical structure allows ChatGPT to easily identify the content represented by variables:
+* Role is the article title, with a scope covering the entire text.
+* Rule is a paragraph title, with a scope limited to the paragraph.
+* Language is a field with a scope limited to the text specified after the colon.
+
+### Commands
+
+Commands make it easy to set some default actions, such as "/help" to provide help documentation, "/continue" to continue writing text, etc., which are all very useful commands.
+
+* Use '/' as the convention to indicate commands.
+* Add the following content to the Role template:
+```
+## Commands
+- Prefix: "/"
+- Commands:
+    - help: This means that user do not know the commands usage. Please introduce yourself and the commands usage.
+    - continue: This means that your output was cut. Please continue where you left off.
+```
+
+### Reminder
+
+Using a Reminder can help alleviate ChatGPT's forgetting issue.
+
+Add a Reminder to the Role template:
+
+```
+## Reminder
+
+1. 'Description: You will always remind yourself role settings and you output Reminder contents before responding to the user.'
+2. 'Reminder: The user language is language (<language>), rules (<rules>).'
+3. "<output>"
+```
+
+### Conditional Statements
+
+Use conditional statements just like in programming, with a template like:
+
+If [situation1 happens], you will take [action1], else, you will take [action2]
+
+### Json or Yaml for Convenient Program Development
+
+**LangGPT currently uses markdown language, but any markup method that can express hierarchical relationships, such as json, yaml, etc., can be used.**
+
+Perhaps ChatGPT could help write a conversion script?
+
+### Others (TBD)
+
+## 🤩 Development Plan
+
+The project is currently in a very early and primitive stage, with a heavy workload. We warmly welcome interested and capable individuals to participate in the project! 🆘
+
+| Task | Description | Status |
+| --- | --- | --- |
+| Role Basic Template | Basic Prompt role design template, covering most use cases | ✅ |
+| Documentation and Usage | Basic documentation, usage, and simple examples | ✅ |
+| Advanced Syntax Features | As large model capabilities improve, such as longer context length, better long-term memory, plugins, develop more advanced syntax features | 📆 🆘|
+| Prompt Chain | Multi-Role collaboration, Prompt Chain collaboration | 📆 🆘|
+| Support for Json/Yaml | Support for Json, Yaml, and other markup formats to facilitate development | 🔜 🆘|
+| Role Advanced Template | Enhance the basic template with commands, environment settings, plugin functionality, network control, and other advanced features | 🔜 🆘|
+| Examples | Provide more LangGPT template-based prompt examples and complete conversation usage | 🔜 🆘|
+| Documentation | Improve documentation and refine usage | 🔜 🆘|
+| Website | Showcase documentation and examples | 📆 🆘|
+
+## Contribution Guidelines
+
+1. Please feel free to share and spread the word about the LangGPT project, enabling more people to write better prompts and expand the influence of the LangGPT project!
+2. We welcome the development of interesting Prompts using the LangGPT Role template and encourage the submission of high-quality examples!
+3. We welcome contributions beyond the Role template, such as additional templates!
+4. Help improve project documentation by correcting typos, grammar errors, and more!
+5. Assist in building the project website!
+6. Provide access to ChatGPT plugin capabilities for development testing!
+7. We appreciate any and all actions that benefit the LangGPT project!
+
+If you are not familiar with using GitHub, you can refer to:
+[GitHub Minimal Contribution Guide: Issue and PR](https://github.com/datawhalechina/DOPMC/blob/main/GITHUB.md)
