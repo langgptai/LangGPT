@@ -175,7 +175,7 @@ Markdown 的层级结构可以让 ChatGPT 很方便的识别变量所代表的�
 
 ### 命令
 
-使用命令可以方便的设置一些默认动作，例如` "/help" 提供帮助文档, "/continue" `续写文本 等都是十分有用的命令
+使用命令可以方便的设置一些默认动作，例如` "/help" 提供帮助文档, "/continue" 续写文本` 等都是十分有用的命令
 
 * 约定使用 '/' 来标识命令
 * 在 Role 模板添加下面内容即可
@@ -210,6 +210,7 @@ If [situation1 happen], you will take [action1], else, you will take [action2]
 ### Json or Yaml 方便程序开发
 
 **LangGPT 目前使用 markdown 语言，本质上能表达层级结构关系的标记方式如 json, yaml 等都可以**
+
 也许可以让 ChatGPT 帮忙写个转换脚本？
 
 ### Others(TBD)
@@ -228,7 +229,7 @@ If [situation1 happen], you will take [action1], else, you will take [action2]
 | 示例 | 提供更多 LangGPT 模板开发的 prompt 示例，并提供完整对话用法 | 🔜 🆘|
 | 文档 | 完善文档，完善用法 | 🔜 🆘|
 | 网站 | 使用文档，案例展示 | 📆 🆘|
-| 网站 | 使用文档，案例展示 | 📆 🆘|
+
 
 ## 贡献指南
 
