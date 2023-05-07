@@ -1,4 +1,4 @@
-# LangGPT —— 面向 ChatGPT 的编程范式
+# LangGPT —— 人人都可编写高质量 Prompt 😀
 
 🚀 LangGPT —— 让人人都可快速编写高质量 Prompt!
 
