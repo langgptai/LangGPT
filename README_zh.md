@@ -29,7 +29,7 @@ LangGPT 指在解决上面的问题：
 
 ## 立即使用
 你可以直接使用 LangGPT 助手咒语开始使用 LangGPT 编写咒语。（复制粘贴下面文件内容到 GPT4 即可）
-* [LangGPT助手](LangGPTHelper.md)
+* [LangGPT助手](https://raw.githubusercontent.com/yzfly/LangGPT/main/LangGPTHelper.md)
 
 ## 前置条件
 * Markdown，不会可参考[【Markdown 教程】](https://www.jianshu.com/p/335db5716248)。（实际使用 json， yaml 等格式也可以，有想法欢迎贡献）

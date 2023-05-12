@@ -19,6 +19,11 @@ With a solid grasp of LangGPT, you'll be able to quickly and effortlessly begin 
 * Markdown. If you're not familiar with it, you can refer to this [Markdown Tutorial](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). (JSON, YAML, and other formats are also acceptable; contributions are welcome)
 * GPT-4 is preferred
 
+## Quick Start
+
+You can begin utilizing LangGPT for crafting potent prompts by simply copying and pasting the following file content into GPT-4.
+* [LangGPT Helper](https://raw.githubusercontent.com/yzfly/LangGPT/main/LangGPTHelper.md)
+
 ## Getting Started
 
 Here, we provide a small `FitnessGPT` example to help you quickly get started with LangGPT. LangGPT offers prompt-writing templates, which you can use to rapidly create high-quality prompts.
