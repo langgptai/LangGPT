@@ -249,5 +249,11 @@ If [situation1 happen], you will take [action1], else, you will take [action2]
 如果你不太熟悉 GitHub 使用可以参考：
 [GitHub 极简贡献指南: Issue and PR](https://github.com/datawhalechina/DOPMC/blob/main/GITHUB.md)
 
+## 微信公众号
+
+欢迎关注我的微信公众号，不过微信内容限制比较多，禁止外链以及内容审核等，所以会随缘发一些内容，欢迎关注~
+
+![wx_gh](imgs/qrcode_for_wx_gh.jpg)
+
 ## 致谢
 * [Mr.-Ranedeer-AI-Tutor](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor) 该项目提供了很棒的 prompt，激发了本项目的灵感！
