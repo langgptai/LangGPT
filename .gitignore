@@ -1,2 +1,32 @@
 temp/
 tmp/
+
+# Compiled Python files
+__pycache__/
+*.py[cod]
+
+# Sphinx build files
+docs/_build/
+docs/.doctrees.
+docs/.eggs/
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Mac OS files
+.DS_Store
+
+# PyCharm files
+.idea/
+
+# VS Code files
+.vscode/
