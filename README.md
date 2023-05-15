@@ -21,7 +21,8 @@ With a solid grasp of LangGPT, you'll be able to quickly and effortlessly begin 
 
 ## Quick Start
 
-You can begin utilizing LangGPT for crafting potent prompts by simply copying and pasting the following file content into GPT-4.
+You can begin utilizing LangGPT for crafting potent prompts by simply copying and pasting the following file content into GPT-4. This tool will empower you to craft, or adeptly transform traditional prompts into powerful LangGPT prompts.
+
 * [LangGPT Helper](https://raw.githubusercontent.com/yzfly/LangGPT/main/LangGPTHelper.md)
 
 ## Getting Started

@@ -29,6 +29,8 @@ LangGPT 指在解决上面的问题：
 
 ## 立即使用
 你可以直接使用 LangGPT 助手咒语开始使用 LangGPT 编写咒语。（复制粘贴下面文件内容到 GPT4 即可）
+它可以帮助你快速创建强大的咒语，你也可以将它用来把一般咒语转换为 LangGPT 咒语。
+
 * [LangGPT助手](https://raw.githubusercontent.com/yzfly/LangGPT/main/LangGPTHelper.md)
 
 ## 前置条件
