@@ -17,7 +17,7 @@ With a solid grasp of LangGPT, you'll be able to quickly and effortlessly begin 
 
 ## Prerequisites
 * Markdown. If you're not familiar with it, you can refer to this [Markdown Tutorial](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). (JSON, YAML, and other formats are also acceptable; contributions are welcome)
-* GPT-4 is preferred
+* GPT-4 (preferred) or Claude.
 
 ## Quick Start
 

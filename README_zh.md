@@ -35,7 +35,7 @@ LangGPT 指在解决上面的问题：
 
 ## 前置条件
 * Markdown，不会可参考[【Markdown 教程】](https://www.jianshu.com/p/335db5716248)。（实际使用 json， yaml 等格式也可以，有想法欢迎贡献）
-*  GPT-4 为佳
+*  GPT-4 (最佳) 或者 Claude.
 
 ## 快速上手
 
