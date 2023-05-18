@@ -31,7 +31,9 @@ LangGPT 指在解决上面的问题：
 你可以直接使用 LangGPT 助手咒语开始使用 LangGPT 编写咒语。（复制粘贴下面文件内容到 GPT4 即可）
 它可以帮助你快速创建强大的咒语，你也可以将它用来把一般咒语转换为 LangGPT 咒语。
 
-* [LangGPT助手](https://raw.githubusercontent.com/yzfly/LangGPT/main/LangGPTHelper.md)
+* [LangGPT助手](https://raw.githubusercontent.com/yzfly/LangGPT/main/LangGPTHelper.md) 
+
+> 虽然有点长，但请全部复制吧，性能会更稳定，后期有时间会优化长度
 
 ## 前置条件
 * Markdown，不会可参考[【Markdown 教程】](https://www.jianshu.com/p/335db5716248)。（实际使用 json， yaml 等格式也可以，有想法欢迎贡献）
