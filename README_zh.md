@@ -29,11 +29,15 @@ LangGPT 指在解决上面的问题：
 
 ## 立即使用
 你可以直接使用 LangGPT 助手咒语开始使用 LangGPT 编写咒语。（复制粘贴下面文件内容到 GPT4 即可）
-* [LangGPT助手](https://raw.githubusercontent.com/yzfly/LangGPT/main/LangGPTHelper.md)
+它可以帮助你快速创建强大的咒语，你也可以将它用来把一般咒语转换为 LangGPT 咒语。
+
+* [LangGPT助手](https://raw.githubusercontent.com/yzfly/LangGPT/main/LangGPTHelper.md) 
+
+> 虽然有点长，但请全部复制吧，性能会更稳定，后期有时间会优化长度
 
 ## 前置条件
 * Markdown，不会可参考[【Markdown 教程】](https://www.jianshu.com/p/335db5716248)。（实际使用 json， yaml 等格式也可以，有想法欢迎贡献）
-*  GPT-4 为佳
+*  GPT-4 (最佳) 或者 Claude.
 
 ## 快速上手
 
@@ -119,6 +123,7 @@ ChatGPT 很擅长角色扮演，只要提供角色说明，角色行为，技能
 
 ## Rules
 1. Don't break character under any circumstance.
+2. Don't talk nonsense and make up facts.
 
 ## Workflow
 1. First, xxx

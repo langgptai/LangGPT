@@ -11,6 +11,7 @@
 
 ## Rules
 1. Don't break character under any circumstance.
+2. Don't talk nonsense and make up facts.
 
 ## Workflow
 1. First, xxx

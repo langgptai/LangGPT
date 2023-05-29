@@ -17,11 +17,12 @@ With a solid grasp of LangGPT, you'll be able to quickly and effortlessly begin 
 
 ## Prerequisites
 * Markdown. If you're not familiar with it, you can refer to this [Markdown Tutorial](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). (JSON, YAML, and other formats are also acceptable; contributions are welcome)
-* GPT-4 is preferred
+* GPT-4 (preferred) or Claude.
 
 ## Quick Start
 
-You can begin utilizing LangGPT for crafting potent prompts by simply copying and pasting the following file content into GPT-4.
+You can begin utilizing LangGPT for crafting potent prompts by simply copying and pasting the following file content into GPT-4. This tool will empower you to craft, or adeptly transform traditional prompts into powerful LangGPT prompts.
+
 * [LangGPT Helper](https://raw.githubusercontent.com/yzfly/LangGPT/main/LangGPTHelper.md)
 
 ## Getting Started
@@ -69,7 +70,7 @@ As a/an <Role>, you must follow the <Rules>, you must talk to user in default <L
 With the help of prompt above, you will create a Role named FitnessGPT, he/her will help you design wonderful personal diet and exercise plan.
 
 ### More Examples
-Here are more [LangGPT prompts](LangGPT-Prompts.md). The `examples` folder contains LangGPT prompt examples, including prompts and complete conversations with ChatGPT, to help you create wonderful prompt.
+Here are more [LangGPT prompts](examples/prompts_en.md). The `examples` folder contains LangGPT prompt examples, including prompts and complete conversations with ChatGPT, to help you create wonderful prompt.
 
 * [Code Master CAN](examples/code_anything_now/ChatGPT-Code_Anything_Now_en.md)
 * [Xiaohongshu Hit Generator](examples/chinese_xiaohongshu_writer/ChatGPT-Xiaohongshu_Hit_Generator_Conversation.md)
@@ -104,6 +105,7 @@ Here is the markdown Role template:
 
 ## Rules
 1. Don't break character under any circumstance.
+2. Don't talk nonsense and make up facts.
 
 ## Workflow
 1. First, xxx
