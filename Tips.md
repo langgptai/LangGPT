@@ -1,5 +1,30 @@
 # Prompting tips you should known
 
+## Use cases
+
+### The flaws of the LLMs
+
+* Models may be biased
+* Models may fabricate ("hallucinate") information
+* Models may have reasoning errors
+* Models may struggle in classes of applications, eg. spelling related tasksModels have knowledge cutoffs (e.g. September 2021)Models are susceptible to prompt injection, "jailbreak" attacks, datapoisoning attacks,...
+
+### Recommendations:
+* Use in low-stakes applications, combine with human oversight
+* Source of inspiration, suggestions
+* Copilots over autonomous agents
+
+reference:
+> https://www.bilibili.com/video/BV1ts4y1T7UH
+
+
+## Use prompts with detailed task context, relevant information, instructions
+
+* "what would you tell a task contactor if they can't email you back?”
+
+reference:
+> https://www.bilibili.com/video/BV1ts4y1T7UH
+
 ## Use “Be Concise” to save 40-90% money. 
 
 Asking an LLM to be concise can save you a lot of money. This can be achieved by appending “Be Concise” to your prompt. About 40-90% amount can be saved.
