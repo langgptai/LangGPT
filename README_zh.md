@@ -30,10 +30,11 @@ LangGPT 指在解决上面的问题：
 通过掌握使用 LangGPT，你可以在几分钟内轻松上手大模型指令编写。🚀
 
 ## 立即使用
-你可以直接使用 LangGPT 助手咒语开始使用 LangGPT 编写咒语。（复制粘贴下面文件内容到 GPT4 即可）
+你可以直接使用 LangGPT 助手咒语开始使用 LangGPT 编写咒语。
 它可以帮助你快速创建强大的咒语，你也可以将它用来把一般咒语转换为 LangGPT 咒语。
+（打开下面链接，并点击 `Continue this conversation`，描述你想创建的 prompt 即可）
 
-* [LangGPT助手](https://raw.githubusercontent.com/yzfly/LangGPT/main/LangGPTHelper.md) 
+* [LangGPT助手](https://chat.openai.com/share/658ae712-43f8-4c4e-ba39-ce0ca50d9b97) 
 
 > 虽然有点长，但请全部复制吧，性能会更稳定，后期有时间会优化长度
 
