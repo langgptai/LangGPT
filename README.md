@@ -221,6 +221,10 @@ The project is currently in its early and primitive stages, with a significant w
 | Documentation | Enhance documentation and perfect usage | 🔜 🆘|
 | Website | Display documentation and examples for easy access | 📆 🆘|
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=yzfly/LangGPT&type=Date)](https://star-history.com/#yzfly/LangGPT&Date)
+
 ## Contribution Guidelines
 
 1. Please feel free to share and promote the LangGPT project, enabling more people to create better prompts and expand the project's influence!

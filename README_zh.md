@@ -262,5 +262,9 @@ If [situation1 happen], you will take [action1], else, you will take [action2]
 
 ![wx_gh](https://raw.githubusercontent.com/yzfly/awesome-chatgpt-zh/main/imgs/qrcode_for_wx_gh.jpg)
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=yzfly/LangGPT&type=Date)](https://star-history.com/#yzfly/LangGPT&Date)
+
 ## 致谢
 * [Mr.-Ranedeer-AI-Tutor](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor) 该项目提供了很棒的 prompt，激发了本项目的灵感！
