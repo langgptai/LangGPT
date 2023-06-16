@@ -4,6 +4,8 @@
 
 LangGPT 项目旨在以结构化、模板化的方式编写高质量 ChatGPT prompt，你可以将其视为一种面向大模型的 prompt 编程语言。
 
+相关项目：[ChatGPT 中文指南 🔥](https://github.com/yzfly/awesome-chatgpt-zh)
+
 现有 Prompt 创建方法有如下缺点：
 * 缺乏系统性：大多是细碎的规则，技巧，严重依赖个人经验
 * 缺乏灵活性：对他人分享的优质 prompt 进行调整需要直接修改 prompt 内容
