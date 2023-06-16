@@ -36,7 +36,6 @@ LangGPT 指在解决上面的问题：
 
 * [LangGPT助手](https://chat.openai.com/share/658ae712-43f8-4c4e-ba39-ce0ca50d9b97) 
 
-> 虽然有点长，但请全部复制吧，性能会更稳定，后期有时间会优化长度
 
 ## 前置条件
 * Markdown，不会可参考[【Markdown 教程】](https://www.jianshu.com/p/335db5716248)。（实际使用 json， yaml 等格式也可以，有想法欢迎贡献）
