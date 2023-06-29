@@ -267,4 +267,6 @@ If [situation1 happen], you will take [action1], else, you will take [action2]
 [![Star History Chart](https://api.star-history.com/svg?repos=yzfly/LangGPT&type=Date)](https://star-history.com/#yzfly/LangGPT&Date)
 
 ## 致谢
-* [Mr.-Ranedeer-AI-Tutor](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor) 该项目提供了很棒的 prompt，激发了本项目的灵感！
+下列项目提供了很棒的 prompt，激发了本项目的灵感！
+* [Mr.-Ranedeer-AI-Tutor](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor) 
+* [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT) 
