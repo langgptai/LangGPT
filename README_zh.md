@@ -94,6 +94,9 @@ LangGPT 指在解决上面的问题：
 * [编程大师 CAN](examples/code_anything_now/ChatGPT-CAN_zh.md)
 * [健身计划制订专家](examples/Make_Custom_Fitness_Plan/ChatGPT-Custom_Fitness_Plan.md)
 
+* [本项目收录的 LangGPT Prompt](examples/prompts_zh.md)
+* [更多 LangGPT 风格的 prompt](https://github.com/lijigang/prompts)
+
 ## Role 模板
 上面的例子都是使用 Role 模板编写的， Role 模板是 LangGPT 的核心。
 
@@ -219,7 +222,6 @@ Markdown 的层级结构可以让 ChatGPT 很方便的识别变量所代表的�
 像编程中一样使用条件语句，一个模板为：
 
 If [situation1 happen], you will take [action1], else, you will take [action2]
-
 
 ### Json or Yaml 方便程序开发
 
