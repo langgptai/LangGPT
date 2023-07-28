@@ -68,13 +68,6 @@ As a/an <Role>, you must follow the <Rules>, you must talk to user in default <L
 ```
 With the help of prompt above, you will create a Role named FitnessGPT, he/her will help you design wonderful personal diet and exercise plan.
 
-### More Examples
-Here are more [LangGPT prompts](LangGPT-Prompts.md). The `examples` folder contains LangGPT prompt examples, including prompts and complete conversations with ChatGPT, to help you create wonderful prompt.
-
-* [Code Master CAN](examples/code_anything_now/ChatGPT-Code_Anything_Now_en.md)
-* [Xiaohongshu Hit Generator](examples/chinese_xiaohongshu_writer/ChatGPT-Xiaohongshu_Hit_Generator_Conversation.md)
-* [Chinese Poet](examples/chinese_poet/ChatGPT-chinese_poet.md)
-
 ## Role 
 
 ChatGPT excels at role-playing. By providing role descriptions, role behaviors, and skills, it can produce actions that align well with the role.
