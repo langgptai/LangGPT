@@ -34,8 +34,10 @@ LangGPT 指在解决上面的问题：
 它可以帮助你快速创建强大的咒语，你也可以将它用来把一般咒语转换为 LangGPT 咒语。
 （打开下面链接，并点击 `Continue this conversation`，描述你想创建的 prompt 即可）
 
-* [LangGPT助手](https://chat.openai.com/share/658ae712-43f8-4c4e-ba39-ce0ca50d9b97) 
+* [用于 ChatGPT-4 的 LangGPT助手](https://chat.openai.com/share/658ae712-43f8-4c4e-ba39-ce0ca50d9b97) 
+* [用于 ChatGPT-3.5 的 LangGPT助手](https://chat.openai.com/share/587d4e4e-5d85-4424-8567-920f008cd4c5) 
 
+你可以在 `LangGPT` 文件夹中找到相应的 Prompt. 请注意，版本仍然在迭代中。
 
 ## 前置条件
 * Markdown，不会可参考[【Markdown 教程】](https://www.jianshu.com/p/335db5716248)。（实际使用 json， yaml 等格式也可以，有想法欢迎贡献）
