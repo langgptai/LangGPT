@@ -164,6 +164,22 @@ CRISPE 这类框架命中注定结构简单，因为过于复杂将难以记忆�
 
 好的属性词也很关键，你可以定义、添加、修改自己的属性词。
 
+### 优势四：像代码开发一样构建生产级 Prompt 
+
+代码是调用机器能力的工具， Prompt 是调用大模型能力的工具。**Prompt 越来越像新时代的编程语言。** 这一观点我在之前的文章中也提过，并获得了许多朋友的认同。
+
+在生产级 AIGC 应用的开发中，**结构化 prompt 使得 prompt 的开发也像代码开发一样有规范。** 结构化 Prompt 的规范可以多种多样，用 json，yaml 实现都可以，GitHub 用户 [ZhangHanDong](https://github.com/ZhangHanDong) 甚至还专门为 Prompt 设计了描述语言 [prompt-description-language](https://github.com/ZhangHanDong/prompt-description-language)。
+
+**结构化 Prompt 的这些规范，这些模块化设计，能够大大便利于 prompt 后续的维护升级，便利于多人协同开发设计。** 这一点程序员群体应该深有感受。
+
+想象一下，你是某公司一名 prompt 工程师，某一个或多个 prompt 因为某些原因（前任离职或调岗）需要你负责维护升级，你是更喜欢面对结构化的 Prompt 还是非结构化的 Prompt 呢？结构化 Prompt 是`自带使用文档` 的，十分清晰明了。
+
+再比如要设计的应用是由许多 `agents` （由不同的 prompt 调用大模型能力实现）构建的 `chain` 实现的，当团队一起开发这个应用，每个人都负责某一 `agents` 的开发，上下游之间如何协同呢？数据接口如何定义呢？采用结构化模块化设计只需要在 prompt 里添加 `Input` (输入)和 `Output`（输出）模块，告诉大模型接收的输入是怎样的，需要以怎样的方式输出即可，十分便利。固定输入输出后，各开发人员完成自己的 agent 开发工作即可。
+
+
+**像复用代码一样复用 Prompt。** 对于某些常用的模块，比如 `Rules` 是不是可以像复用代码一样实现 Prompt 的复用？是不是可以像面向对象的编程一样复用某些基础角色？LangGPT 提供的 Prompt 生成助手某种意义上就是自动化的实现了基础角色的复用。
+
+同时 Prompt 作为一种文本，也完全可以使用 Git 等工具像管理代码一样对 prompt 进行版本管理。
 
 ## 如何写好结构化 Prompt ?
 
