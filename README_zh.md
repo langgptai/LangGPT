@@ -247,8 +247,8 @@ If [situation1 happen], you will take [action1], else, you will take [action2]
 | Prompt Chain | 多 Role 协同，Prompt Chain 协同 | 📆 🆘|
 | 支持 Json/Yaml | 支持 Json,Yaml 等标记格式，方便编程开发 | 🔜 🆘|
 | Role 进阶模板 | 在基础模板上增进指令，环境设置，插件功能，联网控制等高级功能 | 🔜 🆘|
-| 示例 | 提供更多 LangGPT 模板开发的 prompt 示例，并提供完整对话用法 | 🔜 🆘|
-| 文档 | 完善文档，完善用法 | 🔜 🆘|
+| 示例 | 提供更多 LangGPT 模板开发的 prompt 示例，并提供完整对话用法 | ✅|
+| 文档 | 完善文档，完善用法 | ✅|
 | 网站 | 使用文档，案例展示 | 📆 🆘|
 
 

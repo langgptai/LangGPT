@@ -222,8 +222,8 @@ The project is currently in its early and primitive stages, with a significant w
 | Prompt Chain | Collaboration between multi-role and prompt chains | 📆 🆘|
 | Support for JSON/YAML | Support for JSON, YAML, and other markup formats to streamline development | 🔜 🆘|
 | Role Advanced Template | Build upon the basic template by incorporating commands, environment settings, plugin functionality, network control, and other advanced features | 🔜 🆘|
-| Examples | Supply more LangGPT template-based prompt examples and comprehensive conversation usage | 🔜 🆘|
-| Documentation | Enhance documentation and perfect usage | 🔜 🆘|
+| Examples | Supply more LangGPT template-based prompt examples and comprehensive conversation usage | ✅|
+| Documentation | Enhance documentation and perfect usage | ✅|
 | Website | Display documentation and examples for easy access | 📆 🆘|
 
 ## Star History
