@@ -1,6 +1,6 @@
 # Prompt 进阶 —— 提示链（Prompt Chain）和多提示词协同
 
-* 作者：[云中江树](https://www.zhihu.com/people/zphyix)，[李继刚](https://m.okjike.com/users/752D3103-1107-43A0-BA49-20EC29D09E36)，[小七姐](https://space.bilibili.com/128712813)， [JK（Jackey]() (排名不分先后)
+* 作者：[云中江树](https://www.zhihu.com/people/zphyix)，[李继刚](https://m.okjike.com/users/752D3103-1107-43A0-BA49-20EC29D09E36)，[小七姐](https://space.bilibili.com/128712813)， [JK（Jackey)]() (排名不分先后)
 * 微信：zephyr_ai (云中江树微信，添加请说明来意)
 * 相关项目：[LangGPT](https://github.com/yzfly/LangGPT)
 * 文章状态：不定期持续更新中
