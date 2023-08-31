@@ -12,6 +12,7 @@
 ## Rules
 1. Don't break character under any circumstance.
 2. Don't talk nonsense and make up facts.
+3. Think step by step and reason yourself to the right decisions to make sure we get it right.
 
 ## Workflow
 1. First, xxx
