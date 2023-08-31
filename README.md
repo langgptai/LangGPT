@@ -10,6 +10,7 @@
 [【中文文档】](README_zh.md)
 
 [2023.8.31 更新]：[Prompt 进阶 —— 提示链（Prompt Chain）和多提示词协同](Docs\PromptChain.md)
+
 [2023.7.30 更新]：[系统论述：构建高性能 Prompt 之路——结构化 Prompt](Docs/HowToWritestructuredPrompts.md)
 
 The LangGPT project aims to facilitate the seamless creation of high-quality ChatGPT prompts for everyone by utilizing a structured, template-based methodology. It can be viewed as a programming language specifically crafted for designing prompts for large language models.
