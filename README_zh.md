@@ -277,7 +277,7 @@ If [situation1 happen], you will take [action1], else, you will take [action2]
 
 ### 微信群
 
-<img src="https://raw.githubusercontent.com/yzfly/wonderful-prompts/main/imgs/wx.jpg" width="200px">
+<img src="https://raw.githubusercontent.com/yzfly/wonderful-prompts/main/imgs/wx_tmp.jpg" width="200px">
 
 若群满无法加入，添加我的微信 zephyr_ai，说明来意我邀请你进群。
 
