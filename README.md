@@ -9,7 +9,7 @@
 
 [【中文文档】](README_zh.md)
 
-* [**2023.9.03 更新**]: [BiliBili 视频教程（感谢 AIGCLINK）](https://www.bilibili.com/video/BV1rj411q78a)
+* [**2023.9.03 更新**]：[BiliBili 视频教程（感谢 AIGCLINK）](https://www.bilibili.com/video/BV1rj411q78a)
 
 * [**2023.8.31 更新**]：[Prompt 进阶 —— 提示链（Prompt Chain）和多提示词协同](Docs/PromptChain.md)
 
