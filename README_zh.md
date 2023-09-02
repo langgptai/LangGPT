@@ -32,8 +32,15 @@ LangGPT 指在解决上面的问题：
   * 分点条理性叙述
   * `Reminder` 缓解长期记忆缺失问题
 
-
 通过掌握使用 LangGPT，你可以在几分钟内轻松上手大模型指令编写。🚀
+
+## 教程
+| 更新内容 | 简介 | 更新日期 |
+|-|-|-|
+| [视频 01-BiliBili 视频教程](https://www.bilibili.com/video/BV1rj411q78a) | B 站 UP 主 AIGCLINK 制作的 LangGPT 视频教程！感谢 AIGCLINK！ | 2023.9.03 |
+| [文章 01-系统论述:构建高性能 Prompt 之路——结构化 Prompt](Docs/HowToWritestructuredPrompts.md) | 关于结构化提示词看这篇就够了！ | 2023.7.30 |
+| [文章 02-Prompt 进阶 —— 提示链(Prompt Chain)和多提示词协同](Docs/PromptChain.md) | Prompt Chain 和 Prompt 协同，任务拆解等， LangGPT 社区联署联创文章. | 2023.8.31 |
+| [知识库 01-LangGPT 提示词知识库](http://feishu.langgpt.ai) | LangGPT 提示词社区收集整理的提示词资料. | 2023.9.03 |
 
 ## 立即使用
 你可以直接使用 LangGPT 助手咒语开始使用 LangGPT 编写咒语。
@@ -246,13 +253,12 @@ If [situation1 happen], you will take [action1], else, you will take [action2]
 | 任务 | 描述 | 状态 |
 | --- | --- | --- |
 | Role 基础模板 | Prompt 角色设计基础模板，能覆盖大部分使用场景 | ✅ |
+| 示例 | 提供更多 LangGPT 模板开发的 prompt 示例，并提供完整对话用法 | ✅|
 | 文档和用法 | 基础的文档，用法和简单示例 | ✅ |
 | 高级语法特性 | 随着大模型能力提升，如更长的上下文长度，更好的长期记忆，插件，开发更高级语法特性 | 📆 🆘|
 | Prompt Chain | 多 Role 协同，Prompt Chain 协同 | 📆 🆘|
 | 支持 Json/Yaml | 支持 Json,Yaml 等标记格式，方便编程开发 | 🔜 🆘|
 | Role 进阶模板 | 在基础模板上增进指令，环境设置，插件功能，联网控制等高级功能 | 🔜 🆘|
-| 示例 | 提供更多 LangGPT 模板开发的 prompt 示例，并提供完整对话用法 | ✅|
-| 文档 | 完善文档，完善用法 | ✅|
 | 网站 | 使用文档，案例展示 | 📆 🆘|
 
 
