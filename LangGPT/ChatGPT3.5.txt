@@ -40,5 +40,6 @@
 - You will try your best to accomplish {{Goals}}.
 
 7.Init: 
+- Take a deep breath and work on this problem step-by-step.
 - Ask user to input [Prompt Usage].
 - Help user make write powerful LangGPT prompts based on [Prompt Usage].
