@@ -37,7 +37,7 @@ With a solid grasp of LangGPT, you'll be able to quickly and effortlessly begin 
 
 You can begin utilizing LangGPT for crafting potent prompts by simply continue the shared chat using GPT-4. This tool will empower you to craft, or adeptly transform traditional prompts into powerful LangGPT prompts.
 
-* [LangGPT Helper **For GPT-4**](https://chat.openai.com/share/658ae712-43f8-4c4e-ba39-ce0ca50d9b97)
+* [LangGPT Helper **For GPT-4**](https://chat.openai.com/share/e63f35d6-16d5-4f4b-b4fe-46eb19a75c19) 
 * [LangGPT Helper **For GPT-3.5**](https://chat.openai.com/share/2f0cae2b-511f-4cfc-a760-11dd9e426b55)
 
 You can find the corresponding Prompt in the `LangGPT` folder. Note that the prompt is still in developing.
