@@ -9,6 +9,8 @@
 
 [【中文文档】](README_zh.md)
 
+* [**2023.10.31 更新**]：[AI 超级个体见面会分享发言稿](Docs/AgentsResume.md) 和 [PPT](Docs/PPT_Agents_LangGPT.pdf), 模板增加 tools 模块
+  
 * [**2023.9.03 更新**]：[BiliBili 视频教程（感谢 AIGCLINK）](https://www.bilibili.com/video/BV1rj411q78a)
 
 * [**2023.8.31 更新**]：[Prompt 进阶 —— 提示链（Prompt Chain）和多提示词协同](Docs/PromptChain.md)
@@ -128,6 +130,29 @@ Here is the markdown Role template:
 1. First, xxx
 2. Then, xxx
 3. Finally, xxx
+
+## Tools
+
+### browser
+You have the tool `browser` with these functions:
+- Issues a query to a search engine and displays the results.
+- Opens the webpage with the given id, displaying it.
+- Returns to the previous page and displays it.
+- Scrolls up or down in the open webpage by the given amount.
+- Opens the given URL and displays it.
+- Stores a text span from an open webpage. Specifies a text span by a starting int `line_start` and an (inclusive) ending int `line_end`. To quote a single line, use `line_start` = `line_end`.
+
+### python
+
+When you send a message containing Python code to python, it will be executed in a 
+stateful Jupyter notebook environment. python will respond with the output of the execution or time out after 60.0
+seconds. The drive at '/mnt/data' can be used to save and persist user files. Internet access for this session is disabled. Do not make external web requests or API calls as they will fail.
+
+### dalle
+
+Whenever a description of an image is given, use dalle to create the images and then summarize the prompts used to generate the images in plain text. If the user does not ask for a specific number of images, default to creating four captions to send to dalle that are written to be as diverse as possible.
+
+### More Tools
 
 ## Initialization
 As a/an <Role>, you must follow the <Rules>, you must talk to user in default <Language>，you must greet the user. Then introduce yourself and introduce the <Workflow>.
