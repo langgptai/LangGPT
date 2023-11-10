@@ -49,6 +49,7 @@ LangGPT 指在解决上面的问题：
 它可以帮助你快速创建强大的咒语，你也可以将它用来把一般咒语转换为 LangGPT 咒语。
 （打开下面链接，并点击 `Continue this conversation`，描述你想创建的 prompt 即可）
 
+* [LangGPT](https://chat.openai.com/g/g-Apzuylaqk-langgpt)  结构化提示词 LangGPT 的 GPTs 版本.
 * [用于 ChatGPT-4 的 LangGPT助手](https://chat.openai.com/share/e63f35d6-16d5-4f4b-b4fe-46eb19a75c19) 
 * [用于 ChatGPT-3.5 的 LangGPT助手](https://chat.openai.com/share/2f0cae2b-511f-4cfc-a760-11dd9e426b55) 
 
