@@ -248,6 +248,11 @@ Maybe ChatGPT could assist in creating a conversion script?
 
 ### Others (TBD)
 
+## 🤝 Partnership
+
+* [securityGPT](https://github.com/rryuliu/securityGPT) Protect your GPTs through secure prompts to prevent malicious data leaks.
+* [AIPainting-Structured-Prompts](https://github.com/zhutyler21/AIPainting-Structured-Prompts) 结构化的生成用于进行AI绘画创作的Prompt，适用于DALLE和MidJourney等多个平台。
+* 
 ## 🤩 Development Plan
 
 The project is currently in its early and primitive stages, with a significant workload. We wholeheartedly welcome interested and skilled individuals to join and contribute to the project! 🆘
