@@ -275,7 +275,7 @@ If [situation1 happen], you will take [action1], else, you will take [action2]
 ## 🤝 伙伴项目
 
 * [securityGPT](https://github.com/rryuliu/securityGPT) 通过安全 Prompt 保护你的 GPTs ，避免内容被恶意泄露
-* [AIPainting-Structured-Prompts](https://github.com/zhutyler21/AIPainting-Structured-Prompts) 结构化的生成用于进行AI绘画创作的Prompt，适用于DALLE和MidJourney等多个平台。
+* [AIPainting-Structured-Prompts](https://github.com/zhutyler21/AIPainting-Structured-Prompts) 结构化生成 AI绘画创作的Prompt，适用于DALLE和MidJourney等多平台。
 
 ## 🤩 开发计划
 
