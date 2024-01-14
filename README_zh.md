@@ -4,6 +4,7 @@
 
 LangGPT 项目旨在以结构化、模板化的方式编写高质量 ChatGPT prompt，你可以将其视为一种面向大模型的 prompt 编程语言。
 
+* [**2024.01.14 更新**]：[年度分享：“AI 交流的艺术：Prompt Engineering 2023 年度视角”](Docs/PromptAnnualReview.md)
 * [**2023.12.20 更新**]：[【创业邦采访】欢迎来到提示词的美丽新世界](https://mp.weixin.qq.com/s/umWT_79m7MpohfrKdlqUiw)
   
 * [**2023.10.31 更新**]：[AI 超级个体见面会分享发言稿](Docs/AgentsResume.md) 和 [PPT](Docs/PPT_Agents_LangGPT.pdf), 模板增加 tools 模块
