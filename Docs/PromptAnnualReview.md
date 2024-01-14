@@ -252,3 +252,18 @@ prompt 的来源可以是我们的预设 prompt，也可以是用户的输入，
 ![幻灯片35](PromptAnnualReview/幻灯片35.PNG)
 
 谢谢大家！欢迎大家联系我们！
+
+## 最后
+
+最近有些消息说 AGI 到来的脚步已经很近了，在这个话题下，在开发者大会现场听到生产力和生产关系的变革这么深刻的讨论内心还是很惊奇的，也很有启发。
+
+这一天真的到来的时刻，会是怎样的情景？这是怎样的时代？今夕何夕？
+
+
+
+结尾放一些活动现场照片。
+
+![AIGC_20240113_meeting_2](PromptAnnualReview/AIGC_20240113_meeting_2.jpg)
+
+![AIGC_20240113_meeting_1](PromptAnnualReview/AIGC_20240113_meeting_1.jpg)
+
