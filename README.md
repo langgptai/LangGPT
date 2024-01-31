@@ -9,6 +9,8 @@
 
 [【中文文档】](README_zh.md)
 
+* [**2024.01.31 更新**]：[GPTs: LangGPT 代码诗人](https://chat.openai.com/gpts/editor/g-Apzuylaqk) 自动化创建结构化提示词的简易版 GPTs, 持续更新中
+
 * [**2024.01.14 更新**]：[年度分享：“AI 交流的艺术：Prompt Engineering 2023 年度视角”](Docs/PromptAnnualReview.md)
   
 * [**2023.12.20 更新**]：[【创业邦采访】欢迎来到提示词的美丽新世界](https://mp.weixin.qq.com/s/umWT_79m7MpohfrKdlqUiw)
@@ -30,6 +32,7 @@ With a solid grasp of LangGPT, you'll be able to quickly and effortlessly begin 
 ## 教程
 | 更新内容 | 简介 | 更新日期 |
 |-|-|-|
+| [GPTs: LangGPT 代码诗人](https://chat.openai.com/gpts/editor/g-Apzuylaqk) | 自动化创建结构化提示词的GPTs | 2024.1.31 |
 | [视频 01-BiliBili 视频教程](https://www.bilibili.com/video/BV1rj411q78a) | B 站 UP 主 AIGCLINK 制作的 LangGPT 视频教程！感谢 AIGCLINK！ | 2023.9.03 |
 | [文章 01-系统论述:构建高性能 Prompt 之路——结构化 Prompt](Docs/HowToWritestructuredPrompts.md) | 关于结构化提示词看这篇就够了！ | 2023.7.30 |
 | [文章 02-Prompt 进阶 —— 提示链(Prompt Chain)和多提示词协同](Docs/PromptChain.md) | Prompt Chain 和 Prompt 协同，任务拆解等， LangGPT 社区联署联创文章. | 2023.8.31 |
