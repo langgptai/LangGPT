@@ -1,4 +1,4 @@
-# 🚀 LangGPT — Empowering everyone to create high-quality prompts!
+![图片](https://github.com/sci-m-wang/LangGPT/assets/36068775/9d5bb828-f71b-4a35-bd85-c57af3cb1ca7)# 🚀 LangGPT — Empowering everyone to create high-quality prompts!
 <div align=center>
 <img src="imgs/LangGPT.svg" width="60%" height="auto">
 
@@ -290,6 +290,21 @@ The project is currently in its early and primitive stages, with a significant w
 
 If you are not familiar with using GitHub, you can refer to:
 [GitHub Minimal Contribution Guide: Issue and PR](https://github.com/datawhalechina/DOPMC/blob/main/GITHUB.md)
+
+## Citation
+
+If you have used or referenced this project in your own work, you can add a citation in the following format:
+
+```bib
+@misc{wang2024langgpt,
+      title={LangGPT: Rethinking Structured Reusable Prompt Design Framework for LLMs from the Programming Language}, 
+      author={Ming Wang and Yuanzhong Liu and Xiaoming Zhang and Songlian Li and Yijie Huang and Chi Zhang and Daling Wang and Shi Feng and Jigang Li},
+      year={2024},
+      eprint={2402.16929},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE}
+}
+```
 
 ## Acknowledgments
 Following projects provided great prompts, which inspired the creation of LangGPT:
