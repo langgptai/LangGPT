@@ -327,6 +327,20 @@ If [situation1 happen], you will take [action1], else, you will take [action2]
 
 [![Star History Chart](https://api.star-history.com/svg?repos=yzfly/LangGPT&type=Date)](https://star-history.com/#yzfly/LangGPT&Date)
 
+## 引用
+如果您使用或参考了本项目，请按如下格式引用：
+
+```bibtex
+@misc{wang2024langgpt,
+      title={LangGPT: Rethinking Structured Reusable Prompt Design Framework for LLMs from the Programming Language}, 
+      author={Ming Wang and Yuanzhong Liu and Xiaoming Zhang and Songlian Li and Yijie Huang and Chi Zhang and Daling Wang and Shi Feng and Jigang Li},
+      year={2024},
+      eprint={2402.16929},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE}
+}
+```
+
 ## 致谢
 下列项目提供了很棒的 prompt，激发了本项目的灵感！
 * [Mr.-Ranedeer-AI-Tutor](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor) 
