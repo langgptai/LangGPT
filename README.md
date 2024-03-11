@@ -32,7 +32,7 @@ With a solid grasp of LangGPT, you'll be able to quickly and effortlessly begin 
 ## 教程
 | 更新内容 | 简介 | 更新日期 |
 |-|-|-|
-| [LangGPT 论文](https://arxiv.org/abs/2402.16929) | LangGPT: Rethinking Structured Reusable Prompt Design Framework for LLMs from the Programming Language | 2024.2.26 |
+| [LangGPT 论文](https://arxiv.org/abs/2402.16929) | LangGPT: Rethinking Structured Reusable Prompt Design Framework for LLMs from the Programming Language, [中文版](LangGPT_paper_cn.md) | 2024.2.26 |
 | [GPTs: LangGPT 代码诗人](https://chat.openai.com/gpts/editor/g-Apzuylaqk) | 自动化创建结构化提示词的GPTs | 2024.1.31 |
 | [视频 01-BiliBili 视频教程](https://www.bilibili.com/video/BV1rj411q78a) | B 站 UP 主 AIGCLINK 制作的 LangGPT 视频教程！感谢 AIGCLINK！ | 2023.9.03 |
 | [文章 01-系统论述:构建高性能 Prompt 之路——结构化 Prompt](Docs/HowToWritestructuredPrompts.md) | 关于结构化提示词看这篇就够了！ | 2023.7.30 |
