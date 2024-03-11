@@ -29,6 +29,8 @@ Current prompt design methods tend to offer only a handful of tips and principle
 
 With a solid grasp of LangGPT, you'll be able to quickly and effortlessly begin creating prompts for large language models in just a few minutes. 🚀 No need to save so many prompts anymore!
 
+> You can find out more details in the [paper](https://arxiv.org/abs/2402.16929). LangGPT论文的[中文版](Docs/【论文中文版】LangGPT：面向大模型的自然语言编程框架.pdf)也已经上传。
+
 ## 教程
 | 更新内容 | 简介 | 更新日期 |
 |-|-|-|
