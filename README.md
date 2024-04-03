@@ -9,6 +9,8 @@
 
 [【中文文档】](README_zh.md)
 
+* [**2024.04.03 更新**]：[如何让 LLM 应用性能登峰造极](https://mp.weixin.qq.com/s/Kr16ub_FN6pTF6acs-e6MA)
+  
 * [**2024.01.31 更新**]：[GPTs: LangGPT 代码诗人](https://chat.openai.com/gpts/editor/g-Apzuylaqk) 自动化创建结构化提示词的简易版 GPTs, 持续更新中
 
 * [**2024.01.14 更新**]：[年度分享：“AI 交流的艺术：Prompt Engineering 2023 年度视角”](Docs/PromptAnnualReview.md)
