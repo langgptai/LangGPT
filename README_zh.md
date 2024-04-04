@@ -1,6 +1,9 @@
 # LangGPT —— 人人都可编写高质量 Prompt 😀
 
-🚀 LangGPT —— 让人人都可快速编写高质量 Prompt!
+<div align=center>
+<img src="imgs/logo.png" width="60%" height="auto">
+
+🚀 LangGPT —— 人人都能写出高质量提示词!
 
 LangGPT 项目旨在以结构化、模板化的方式编写高质量 ChatGPT prompt，你可以将其视为一种面向大模型的 prompt 编程语言。
 
