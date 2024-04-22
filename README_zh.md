@@ -11,7 +11,10 @@
 🚀 LangGPT —— 人人都能写出高质量提示词!
 
 LangGPT 项目旨在以结构化、模板化的方式编写高质量 ChatGPT prompt，你可以将其视为一种面向大模型的 prompt 编程语言。
+* [**2024.04.22 更新**]：[PromptShow 上线|轻松展示分享你的结构化提示词](https://show.langgpt.ai/) 欢迎访问 https://show.langgpt.ai/ 试用
+
 * [**2024.04.13 更新**]：[提示词工程师必看系列：如何写好Prompt？](https://mp.weixin.qq.com/s/I2KfZt83c_7RmDNcDAuzCA)
+
 * [**2024.04.03 更新**]：[如何让 LLM 应用性能登峰造极](https://mp.weixin.qq.com/s/Kr16ub_FN6pTF6acs-e6MA)
 * [**2024.01.31 更新**]：[GPTs: LangGPT 代码诗人](https://chat.openai.com/gpts/editor/g-Apzuylaqk) 自动化创建结构化提示词的简易版 GPTs, 持续更新中
 * [**2024.01.14 更新**]：[年度分享：“AI 交流的艺术：Prompt Engineering 2023 年度视角”](Docs/PromptAnnualReview.md)
