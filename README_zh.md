@@ -75,6 +75,7 @@ LangGPT 指在解决上面的问题：
 
 你可以在 `LangGPT` 文件夹中找到相应的 Prompt. 请注意，版本仍然在迭代中。
 
+
 ## 前置条件
 * Markdown，不会可参考[【Markdown 教程】](https://www.jianshu.com/p/335db5716248)。（实际使用 json， yaml 等格式也可以，有想法欢迎贡献）
 *  GPT-4 (最佳) 或者 Claude.
@@ -91,7 +92,7 @@ LangGPT 指在解决上面的问题：
 ## Profile
 
 - Author: YZFly
-- Version: 0.1
+- Version: 1.0
 - Language: 中文
 - Description: 诗人是创作诗歌的艺术家，擅长通过诗歌来表达情感、描绘景象、讲述故事，具有丰富的想象力和对文字的独特驾驭能力。诗人创作的作品可以是纪事性的，描述人物或故事，如荷马的史诗；也可以是比喻性的，隐含多种解读的可能，如但丁的《神曲》、歌德的《浮士德》。
 
@@ -290,7 +291,31 @@ If [situation1 happen], you will take [action1], else, you will take [action2]
 
 也许可以让 ChatGPT 帮忙写个转换脚本？
 
-### Others(TBD)
+## LangGPT GPTs
+|GPTs|点击开玩|介绍|
+|---|---|---|
+|[LangGPT 代码诗人✍️](https://chat.openai.com/g/g-Apzuylaqk-langgpt)|[点击开玩](https://chat.openai.com/g/g-Apzuylaqk-langgpt)| 结构化提示词 GPTs 全量官方版本！🎯📚 简单一键，即可生成有条理的提示词，提升你的写作和创作效率！🔍✨|
+|[PromptGPT✍️](https://chat.openai.com/g/g-YKe3gmydD-promptgpt)|[点击开玩](https://chat.openai.com/g/g-YKe3gmydD-promptgpt)| 结构化提示词lite版，年薪百万的大厂提示词工程师帮你写高质量提示词，快上车体验驾驭大模型的爽感！|
+|[SmartGPT-5🧠](https://chat.openai.com/g/g-sRQtxpN4C-smartgpt-5)|[点击开玩](https://chat.openai.com/g/g-sRQtxpN4C-smartgpt-5)| 永不变懒，聪明勤奋的GPT！提前体验 GPT-5 的爽感！|
+|[中文演讲标题大师🌈](https://chat.openai.com/g/g-zQsF8X4SY-zhong-wen-yan-jiang-biao-ti-da-shi)|[点击开玩](https://chat.openai.com/g/g-zQsF8X4SY-zhong-wen-yan-jiang-biao-ti-da-shi)| 想要完美的中文演讲标题？演讲标题大师来帮忙！🚀 提供10个精准、吸引人的标题，让您的演讲内容大放异彩！🌈！|
+|[MathGPT🏅](https://chat.openai.com/g/g-UIOlPhTjK-mathgpt)|[点击开玩](https://chat.openai.com/g/g-UIOlPhTjK-mathgpt)| 解题能力又强又准的数学专家！🤓📚 将问题转化为方程并解决它们。你的数学伙伴来帮你做作业！🏅✏️！|
+|[PPT Maker🎨](https://chat.openai.com/g/g-wko0Ifhjv-ppt-maker)|[点击开玩](https://chat.openai.com/g/g-wko0Ifhjv-ppt-maker)| PPT大师，帮你制作有内容的 PPT 🚀 它浏览网页以获取内容，概述您的PPT，并使用前沿内容填充幻灯片。🖥️✨|
+|[WriteGPT✍️](https://chat.openai.com/g/g-jwTMtRiL8-writegpt)|[点击开玩](https://chat.openai.com/g/g-jwTMtRiL8-writegpt)| WriteGPT：专业写作专家！📝🚀 专业为任何行业制作高质量的文书。📈📚|
+|[LogoGPT🎨](https://chat.openai.com/g/g-wdz2JlUBv-logogpt)|[点击开玩](https://chat.openai.com/g/g-wdz2JlUBv-logogpt)| 使用LogoGPT创建漂亮的Logo！🖌️ |
+|[Data Table GPT📊](https://chat.openai.com/g/g-nb6RjxHsb-data-table-gpt)|[点击开玩](https://chat.openai.com/g/g-nb6RjxHsb-data-table-gpt)| 复制并粘贴您的杂乱数据！将杂乱的数据转换为整洁的数据表。📁✨|
+|[Coding Expert👨‍💻](https://chat.openai.com/g/g-ky06YjwaP-coding-expert)|[点击开玩](https://chat.openai.com/g/g-ky06YjwaP-coding-expert)| 编程专家，轻松解决你的所有编码难题！🛠️💻！|
+|[PDF Reader🧐](https://chat.openai.com/g/g-YaMjCVW0t-pdf-reader)|[点击开玩](https://chat.openai.com/g/g-YaMjCVW0t-pdf-reader)| PDF阅读器：深入文档！帮助你结构化高效阅读文档。📋👁️！|
+|[Research Paper Reading📚](https://chat.openai.com/g/g-GLDYZOeQI-research-paper-reading)|[点击开玩](https://chat.openai.com/g/g-GLDYZOeQI-research-paper-reading)| 研究论文阅读助手：遵循阅读三步法来帮助你掌握学术论文。️📈📚！|
+|[EmojiGPT🌈](https://chat.openai.com/g/g-Q41Hltsbw-emojigpt)|[点击开玩](https://chat.openai.com/g/g-Q41Hltsbw-emojigpt)| 将文本转换为表情符号艺术！💌💥！|
+|[Travel Planning📅](https://chat.openai.com/g/g-mO2OuYxhX-travel-planning)|[点击开玩](https://chat.openai.com/g/g-mO2OuYxhX-travel-planning)| 旅行规划助理：您的旅程设计师！为您量身定制的个性化行程，让您的每一次旅行都令人难忘。️🌍🗺️🏖️！|
+|[Picture Creator🎨](https://chat.openai.com/g/g-1Gm9C3UBT-picture-creator)|[点击开玩](https://chat.openai.com/g/g-1Gm9C3UBT-picture-creator)| 漂亮手办娃娃生成：释放你的想象力！为风格化的图像生成详细的、很酷的提示。🔥👾！|
+|[LinuxGPT🐧](https://chat.openai.com/g/g-Q41Hltsbw-emojigpt)|[点击开玩](https://chat.openai.com/g/g-Q41Hltsbw-emojigpt)| LinuxGPT：释放Linux的力量！专注于bash脚本和命令行操作。提升您的linux技术！🚀👨‍💻！|
+|[PytorchGPT🔥](https://chat.openai.com/g/g-kyj3zKyHK-pytorchgpt)|[点击开玩](https://chat.openai.com/g/g-kyj3zKyHK-pytorchgpt)| PytorchGPT：你的PyTorch代码耳语者！🤖🔥 熟练地制作和解释PyTorch模型代码，从简单的网络到复杂的架构。🧠💻！|
+|[🎀翻译大小姐](https://chat.openai.com/g/g-2V90YGvVD-fan-yi-da-xiao-jie)|[点击开玩](https://chat.openai.com/g/g-2V90YGvVD-fan-yi-da-xiao-jie)| 来自刚哥的信达雅翻译，年薪百万的翻译小姐姐为你打工！最棒的中文翻译，信达雅，超级地道优雅的中文表达！|
+|[时事热评员🎙️](https://chat.openai.com/g/g-gbfs6fy7c-shi-shi-re-ping-yuan)|[点击开玩](https://chat.openai.com/g/g-gbfs6fy7c-shi-shi-re-ping-yuan)|热评员：意见领袖！🎤💡 为您的主题提供深刻见解和热评，帮助您洞察核心价值！🌐🔖|
+|[AI算法工程师](https://chat.openai.com/g/g-oCwXYY0x2-ai-gpt)|[点击开玩](https://chat.openai.com/g/g-oCwXYY0x2-ai-gpt)|AI 设计 AI|
+|[StableAudioGPT](https://chat.openai.com/g/g-jAr0hpLsL-stableaudiogpt)|[点击开玩](https://chat.openai.com/g/g-jAr0hpLsL-stableaudiogpt)|Stable Audio 提示词生成|
+|[🛠️AutoGPT(coding)](https://chat.openai.com/g/g-n3SaHyp2N-autogpt-coding)|[点击开玩](https://chat.openai.com/g/g-n3SaHyp2N-autogpt-coding)|AutoGPT👨‍💻，自动运行📈，输出超长，一键完成项目框架构建！🖲️|
 
 ## 🤝 伙伴项目
 
