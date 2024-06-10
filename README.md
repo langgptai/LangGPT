@@ -9,6 +9,8 @@
 
 [【中文文档】](README_zh.md)
 
+* [**2024.06.10 更新**]：[多模态提示词与智能体](https://mp.weixin.qq.com/s/Aan9NXO_vEZ9h0YrugpoGQ) 
+
 * [**2024.04.22 更新**]：[PromptShow 上线|轻松展示分享你的结构化提示词](https://show.langgpt.ai/) 欢迎访问 https://show.langgpt.ai/ 试用
 
 * [**2024.04.13 更新**]：[提示词工程师必看系列：如何写好Prompt？](https://mp.weixin.qq.com/s/I2KfZt83c_7RmDNcDAuzCA)
