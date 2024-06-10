@@ -15,7 +15,7 @@
 
 * [**2024.04.03 更新**]：[如何让 LLM 应用性能登峰造极](https://mp.weixin.qq.com/s/Kr16ub_FN6pTF6acs-e6MA)
   
-* [**2024.01.31 更新**]：[GPTs: LangGPT 代码诗人](https://chat.openai.com/gpts/editor/g-Apzuylaqk) 自动化创建结构化提示词的简易版 GPTs, 持续更新中
+* [**2024.01.31 更新**]：[GPTs: LangGPT 提示词专家](https://chat.openai.com/gpts/editor/g-Apzuylaqk) 自动化创建结构化提示词的简易版 GPTs, 持续更新中
 
 * [**2024.01.14 更新**]：[年度分享：“AI 交流的艺术：Prompt Engineering 2023 年度视角”](Docs/PromptAnnualReview.md)
   
@@ -41,7 +41,7 @@ With a solid grasp of LangGPT, you'll be able to quickly and effortlessly begin 
 | 更新内容 | 简介 | 更新日期 |
 |-|-|-|
 | [LangGPT 论文](https://arxiv.org/abs/2402.16929) | LangGPT: Rethinking Structured Reusable Prompt Design Framework for LLMs from the Programming Language, [中文版](Papers/LangGPT_paper_cn.md) | 2024.2.26 |
-| [GPTs: LangGPT 代码诗人](https://chat.openai.com/gpts/editor/g-Apzuylaqk) | 自动化创建结构化提示词的GPTs | 2024.1.31 |
+| [GPTs: LangGPT 提示词专家](https://chat.openai.com/gpts/editor/g-Apzuylaqk) | 自动化创建结构化提示词的GPTs | 2024.1.31 |
 | [视频 01-BiliBili 视频教程](https://www.bilibili.com/video/BV1rj411q78a) | B 站 UP 主 AIGCLINK 制作的 LangGPT 视频教程！感谢 AIGCLINK！ | 2023.9.03 |
 | [文章 01-系统论述:构建高性能 Prompt 之路——结构化 Prompt](Docs/HowToWritestructuredPrompts.md) | 关于结构化提示词看这篇就够了！ | 2023.7.30 |
 | [文章 02-Prompt 进阶 —— 提示链(Prompt Chain)和多提示词协同](Docs/PromptChain.md) | Prompt Chain 和 Prompt 协同，任务拆解等， LangGPT 社区联署联创文章. | 2023.8.31 |
@@ -266,7 +266,7 @@ Maybe ChatGPT could assist in creating a conversion script?
 ## LangGPT GPTs
 |GPTs|点击开玩|介绍|
 |---|---|---|
-|[LangGPT 代码诗人✍️](https://chat.openai.com/g/g-Apzuylaqk-langgpt)|[点击开玩](https://chat.openai.com/g/g-Apzuylaqk-langgpt)| 结构化提示词 GPTs 全量官方版本！🎯📚 简单一键，即可生成有条理的提示词，提升你的写作和创作效率！🔍✨|
+|[LangGPT 提示词专家✍️](https://chat.openai.com/g/g-Apzuylaqk-langgpt)|[点击开玩](https://chat.openai.com/g/g-Apzuylaqk-langgpt)| 结构化提示词 GPTs 全量官方版本！🎯📚 简单一键，即可生成有条理的提示词，提升你的写作和创作效率！🔍✨|
 |[PromptGPT✍️](https://chat.openai.com/g/g-YKe3gmydD-promptgpt)|[点击开玩](https://chat.openai.com/g/g-YKe3gmydD-promptgpt)| 结构化提示词lite版，年薪百万的大厂提示词工程师帮你写高质量提示词，快上车体验驾驭大模型的爽感！|
 |[SmartGPT-5🧠](https://chat.openai.com/g/g-sRQtxpN4C-smartgpt-5)|[点击开玩](https://chat.openai.com/g/g-sRQtxpN4C-smartgpt-5)| 永不变懒，聪明勤奋的GPT！提前体验 GPT-5 的爽感！|
 |[中文演讲标题大师🌈](https://chat.openai.com/g/g-zQsF8X4SY-zhong-wen-yan-jiang-biao-ti-da-shi)|[点击开玩](https://chat.openai.com/g/g-zQsF8X4SY-zhong-wen-yan-jiang-biao-ti-da-shi)| 想要完美的中文演讲标题？演讲标题大师来帮忙！🚀 提供10个精准、吸引人的标题，让您的演讲内容大放异彩！🌈！|
