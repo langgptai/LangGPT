@@ -1,0 +1,22 @@
+{
+  "name": "PromptShow",
+  "short_name": "PromptShow",
+  "background_color": "#121212",
+  "theme_color": "#121212",
+  "description": "PromptShow is the easiest way to create and share beautiful images of your LLM Prompts.",
+  "display": "standalone",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/static/brand/icon.png",
+      "type": "image/png",
+      "sizes": "448x448",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/static/brand/desktop.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

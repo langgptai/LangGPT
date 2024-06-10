@@ -1,0 +1,33 @@
+_extends: reporanger/superpowers
+
+labels:
+  dependencies: merge
+  contributor:
+    action: comment
+    delay: 0s
+    message: '@all-contributors add @$AUTHOR for code'
+  translator:
+    action: comment
+    delay: 0s
+    message: '@all-contributors add @$AUTHOR for translation'
+  duplicate:
+    action: close
+    delay: 2 days
+    comment: ⚠️ This has been marked to be closed in $DELAY.
+  'theme/language':
+    action: close
+    delay: 3 days
+    comment: |
+      This issue has been marked "$LABEL". As of Carbon `4.0.0`, the Carbon core team is no longer implementing new themes or languages, except for in extenuating circumstances. You can create your own theme in the "Themes" dropdown. 
+
+      This issue will remain open for $DELAY for further consideration.
+
+commits:
+  - action: label
+    pattern: 'upgrade dep'
+    labels:
+      - maintenance
+  - action: label
+    user: 'allcontributors[bot]'
+    labels:
+      - 'squash when passing'

@@ -1,0 +1,16 @@
+node_modules
+.env*
+.next
+dist
+out
+cypress/videos
+cypress/screenshots
+.idea
+.DS_Store
+packaged
+coverage
+public/service-worker.js
+private-key.json
+.now
+.vercel
+*.log
