@@ -57,7 +57,7 @@ LangGPT 指在解决上面的问题：
 ## 教程
 | 更新内容 | 简介 | 更新日期 |
 |-|-|-|
-| [LangGPT 论文](https://arxiv.org/abs/2402.16929) | LangGPT: Rethinking Structured Reusable Prompt Design Framework for LLMs from the Programming Language, [中文版](LangGPT_paper_cn.md) | 2024.2.26 |
+| [LangGPT 论文](https://arxiv.org/abs/2402.16929) | LangGPT: Rethinking Structured Reusable Prompt Design Framework for LLMs from the Programming Language, [中文版](Papers/LangGPT_paper_cn.md) | 2024.2.26 |
 | [GPTs: LangGPT 代码诗人](https://chat.openai.com/gpts/editor/g-Apzuylaqk) | 自动化创建结构化提示词的GPTs | 2024.1.31 |
 | [视频 01-BiliBili 视频教程](https://www.bilibili.com/video/BV1rj411q78a) | B 站 UP 主 AIGCLINK 制作的 LangGPT 视频教程！感谢 AIGCLINK！ | 2023.9.03 |
 | [文章 01-系统论述:构建高性能 Prompt 之路——结构化 Prompt](Docs/HowToWritestructuredPrompts.md) | 关于结构化提示词看这篇就够了！ | 2023.7.30 |
@@ -225,7 +225,7 @@ Role 模板通过上面四个部分内容即可定义和配置一个角色。
 6. 将编写好的 Role 模板内容复制到 ChatGPT 对话框（or API）愉快使用~
 
 ## 更多模板
-1. 项目 `templates` 文件夹下提供了更多 Prompt 模板用于参考。
+1. 项目 `LangGPT/emplates` 文件夹下提供了更多 Prompt 模板用于参考。
 2. 你也可以借鉴结构化的思想在 LangGPT 提供的模板基础上自行添加、删除、修改得到自己的 Prompt。
 
 ## 高级用法
