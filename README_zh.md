@@ -387,3 +387,5 @@ If [situation1 happen], you will take [action1], else, you will take [action2]
 下列项目提供了很棒的 prompt，激发了本项目的灵感！
 * [Mr.-Ranedeer-AI-Tutor](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor) 
 * [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT) 
+* [SoM](https://github.com/SkalskiP/SoM)
+* [yolov10](https://github.com/THU-MIG/yolov10)
