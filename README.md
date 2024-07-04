@@ -9,7 +9,9 @@
 
 [【中文文档】](README_zh.md)
 
-* [**2024.06.10 更新**]：[多模态提示词与智能体](https://mp.weixin.qq.com/s/Aan9NXO_vEZ9h0YrugpoGQ), 本文介绍了 GPT-4O 等多模态模型可使用的标记提示法和标记集提示法。应用案例推荐：[gptpdf 项目](https://github.com/CosmosShadow/gptpdf) , 使用 GPT4o 完美解析 PDF。 方法简单但是很有效，使用 PyMuPDF 库，对 PDF 进行解析出所有非文本区域，并做好标记，然后使用视觉大语言模型（如 GPT-4o）将 PDF 解析为 markdown。几乎可以完美地解析排版、数学公式、表格、图片、图表等。
+* [**2024.06.10 更新**]：[多模态提示词与智能体](https://mp.weixin.qq.com/s/Aan9NXO_vEZ9h0YrugpoGQ), 本文介绍了 GPT-4O 等多模态模型可使用的标记提示法和标记集提示法。
+
+应用案例推荐：[gptpdf 项目](https://github.com/CosmosShadow/gptpdf) , 使用 GPT4o 完美解析 PDF。 方法简单但是很有效，使用 PyMuPDF 库，对 PDF 进行解析出所有非文本区域，并做好标记，然后使用视觉大语言模型（如 GPT-4o）将 PDF 解析为 markdown。几乎可以完美地解析排版、数学公式、表格、图片、图表等。
 
 * [**2024.04.22 更新**]：[PromptShow 上线|轻松展示分享你的结构化提示词](https://show.langgpt.ai/) 欢迎访问 https://show.langgpt.ai/ 试用
 
