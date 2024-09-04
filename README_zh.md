@@ -230,7 +230,7 @@ Role 模板通过上面四个部分内容即可定义和配置一个角色。
 6. 将编写好的 Role 模板内容复制到 ChatGPT 对话框（or API）愉快使用~
 
 ## 更多模板
-1. 项目 `LangGPT/emplates` 文件夹下提供了更多 Prompt 模板用于参考。
+1. 项目 `LangGPT/templates` 文件夹下提供了更多 Prompt 模板用于参考。
 2. 你也可以借鉴结构化的思想在 LangGPT 提供的模板基础上自行添加、删除、修改得到自己的 Prompt。
 
 ## 高级用法
