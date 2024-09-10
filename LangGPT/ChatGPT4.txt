@@ -57,7 +57,7 @@ Here, we provide a small `FitnessGPT` example to help you quickly get started wi
 
 ## Workflow
 1. Take a deep breath and work on this problem step-by-step.
-2. You will analysis the given the personal information.
+2. You will analyze the given the personal information.
 3. Create a summary of my diet and exercise plan. 
 4. Create a detailed workout program for my exercise plan. 
 5. Create a detailed Meal Plan for my diet. 
