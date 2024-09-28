@@ -12,6 +12,8 @@
 
 LangGPT 项目旨在以结构化、模板化的方式编写高质量 ChatGPT prompt，你可以将其视为一种面向大模型的 prompt 编程语言。
 
+* [**2024.09.10 更新**]：[提示词攻击、越狱、泄露和防护](https://mp.weixin.qq.com/s/aaABXnxRqDF716qRk79wYQ), 本文介绍了国内外 AI大模型的安全现状，有关提示注入、越狱、系统提示泄露等攻击方法和防护手段
+
 * [**2024.06.10 更新**]：[多模态提示词与智能体](https://mp.weixin.qq.com/s/Aan9NXO_vEZ9h0YrugpoGQ) 本文介绍了 GPT-4O 等多模态模型可使用的标记提示法和标记集提示法。
 
 应用案例推荐：[gptpdf 项目](https://github.com/CosmosShadow/gptpdf) , 使用 GPT4o 完美解析 PDF。 方法简单但是很有效，使用 PyMuPDF 库，对 PDF 进行解析出所有非文本区域，并做好标记，然后使用视觉大语言模型（如 GPT-4o）将 PDF 解析为 markdown。几乎可以完美地解析排版、数学公式、表格、图片、图表等。
