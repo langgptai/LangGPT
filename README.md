@@ -10,6 +10,7 @@
 
 [【中文文档】](README_zh.md)
 
+* [**2024.12.13 更新**]: [系统论述：大模型绘画指南，开启AI生产力绘图新时代！](https://mp.weixin.qq.com/s/bJbZ9bwPXxlpyREqLKhDvA)
 * [**2024.09.10 更新**]：[提示词攻击、越狱、泄露和防护](https://mp.weixin.qq.com/s/aaABXnxRqDF716qRk79wYQ), 本文介绍了国内外 AI大模型的安全现状，有关提示注入、越狱、系统提示泄露等攻击方法和防护手段
 
 * [**2024.06.10 更新**]：[多模态提示词与智能体](https://mp.weixin.qq.com/s/Aan9NXO_vEZ9h0YrugpoGQ), 本文介绍了 GPT-4O 等多模态模型可使用的标记提示法和标记集提示法。
