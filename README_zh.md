@@ -16,7 +16,7 @@ LangGPT 项目旨在以结构化、模板化的方式编写高质量 ChatGPT pro
 
 * [**2024.12.13 更新**]: [从Demo到商用— 构建企业级提示词工程，加速AI应用商用落地](https://langgptai.feishu.cn/wiki/UTyswvusTiRw0TkZLI5cIG0Tnhc) 我们举办的中国提示词工程师大会上，来自中国的AI大模型公司百川智能商业技术总监郭美青分享了企业级提示词工程构建经验。
 
-* [**2024.12.13 更新**]: [系统论述：大模型绘画指南，开启AI生产力绘图新时代！](https://mp.weixin.qq.com/s/bJbZ9bwPXxlpyREqLKhDvA)
+* [**2024.12.13 更新**]: [系统论述：大模型绘画指南，开启AI生产力绘图新时代！](https://mp.weixin.qq.com/s/bJbZ9bwPXxlpyREqLKhDvA) 用大模型绘制文字卡片
 
 * [**2024.09.10 更新**]：[提示词攻击、越狱、泄露和防护](https://mp.weixin.qq.com/s/aaABXnxRqDF716qRk79wYQ), 本文介绍了国内外 AI大模型的安全现状，有关提示注入、越狱、系统提示泄露等攻击方法和防护手段
 
