@@ -10,6 +10,8 @@
 
 [【中文文档】](README_zh.md)
 
+* [**2025.1.28 更新**]: [推理模型：从面向过程到面向目标的提示方法](https://mp.weixin.qq.com/s/FLY0sy1jYv6eT9151Yz_jw) 在AIGC中国开发者大会上的分享，对于推理模型提示方法的变化：从面向过程SOP的提示方法到面向目标的提示方法的范式转变。
+
 * [**2024.12.13 更新**]: [提示词的道和术](https://langgptai.feishu.cn/wiki/AYMWwBPaSih46WkAo9jcfKkfntg) 我们举办的中国提示词工程师大会上，来自中国的提示词布道师李继刚分享了自己提示词创作的经验。
 
 * [**2024.12.13 更新**]: [从Demo到商用— 构建企业级提示词工程，加速AI应用商用落地](https://langgptai.feishu.cn/wiki/UTyswvusTiRw0TkZLI5cIG0Tnhc) 我们举办的中国提示词工程师大会上，来自中国的AI大模型公司百川智能商业技术总监郭美青分享了企业级提示词工程构建经验。
