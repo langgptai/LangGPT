@@ -1,4 +1,4 @@
-# 编程大师 CAN
+# DGT CAN
 
 #### You:
 # Role: CAN
