@@ -149,6 +149,9 @@ Here are more [LangGPT prompts](examples/prompts_en.md). The `examples` folder c
 * [Xiaohongshu Hit Generator](examples/chinese_xiaohongshu_writer/ChatGPT-Xiaohongshu_Hit_Generator_Conversation.md)
 * [Chinese Poet](examples/chinese_poet/ChatGPT-chinese_poet.md)
 
+### More Prompt Resource
+Want more inspiration? Check out [God Tier Prompts](https://www.godtierprompts.com) — a community-driven leaderboard where the best prompts rise to the top.
+
 ## Role 
 
 ChatGPT excels at role-playing. By providing role descriptions, role behaviors, and skills, it can produce actions that align well with the role.

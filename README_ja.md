@@ -126,6 +126,9 @@ As a/an <Role>, you must follow the <Rules>, you must talk to user in default <L
 * [Xiaohongshuヒットジェネレーター](examples/chinese_xiaohongshu_writer/ChatGPT-Xiaohongshu_Hit_Generator_Conversation.md)
 * [中国の詩人](examples/chinese_poet/ChatGPT-chinese_poet.md)
 
+### 追加プロンプトリソース  
+もっとインスピレーションが欲しいですか？[God Tier Prompts](https://www.godtierprompts.com) をチェックしましょう —— コミュニティ主導のリーダーボードで、最高のプロンプトが浮かび上がります。  
+
 ## ロール
 
 ChatGPTはロールプレイングが得意です。ロールの説明、行動、スキルを提供することで、ロールに合った行動を取ることができます。

@@ -172,6 +172,9 @@ LangGPT 指在解决上面的问题：
 * [本项目收录的 LangGPT Prompt](examples/prompts_zh.md)
 * [更多 LangGPT 风格的 prompt](https://github.com/lijigang/prompts)
 
+### 更多提示资源  
+想获得更多灵感吗？来看看 [God Tier Prompts](https://www.godtierprompts.com) —— 一个由社区驱动的排行榜，让最优秀的提示脱颖而出。  
+
 ## Role 模板
 上面的例子都是使用 Role 模板编写的， Role 模板是 LangGPT 的核心。
 
