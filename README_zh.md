@@ -8,6 +8,8 @@
 [![简体中文 badge](https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-Simplified%20Chinese-blue)](README_zh.md)
 </div>
 
+[The Essence of Prompt](TheEssenceofPrompt.md)
+
 🚀 LangGPT —— 人人都能写出高质量提示词!
 
 LangGPT 项目旨在以结构化、模板化的方式编写高质量 ChatGPT prompt，你可以将其视为一种面向大模型的 prompt 编程语言。
