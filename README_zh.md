@@ -9,6 +9,7 @@
 </div>
 
 [The Essence of Prompt](TheEssenceofPrompt.md)
+[看见与言说](看见与言说.md)
 
 🚀 LangGPT —— 人人都能写出高质量提示词!
 

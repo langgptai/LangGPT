@@ -11,6 +11,7 @@
 [【中文文档】](README_zh.md)
 [【日本語ドキュメント】](README_ja.md)
 [The Essence of Prompt](TheEssenceofPrompt.md)
+[看见与言说](看见与言说.md)
 
 * [**2025.4.30 更新**]： LangGPT 提示词生态
 
