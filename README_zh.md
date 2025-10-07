@@ -11,7 +11,8 @@
 - [Prompt 的本质](Docs/Prompt的本质.md)
 - [看见与言说](Docs/看见与言说.md)
 - [对话动力学](Docs/对话动力学.md)
-- [AI的镜像性倾向](Docs/AI的镜像性倾向.md)
+- [镜像性倾向](Docs/镜像性倾向.md)
+- [五种理性](Docs/五种理性.md)
 
 
 🚀 LangGPT —— 人人都能写出高质量提示词!
