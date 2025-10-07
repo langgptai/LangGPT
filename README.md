@@ -14,6 +14,7 @@
 - [Prompt 的本质](Docs/Prompt的本质.md)
 - [看见与言说](Docs/看见与言说.md)
 - [对话动力学](Docs/对话动力学.md)
+- [AI的镜像性倾向](Docs/AI的镜像性倾向.md)
 
 * [**2025.4.30 更新**]： LangGPT 提示词生态
 
