@@ -78,7 +78,7 @@
 
 ### 方法三：从示例开始
 
-浏览我们的[示例库](examples/prompts_en.md)，根据需求改编经过验证的模板。
+浏览我们的[示例库](https://langgptai.feishu.cn/wiki/RXdbwRyASiShtDky381ciwFEnpe)，根据需求改编经过验证的模板。
 
 ---
 

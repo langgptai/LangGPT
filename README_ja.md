@@ -78,7 +78,7 @@ AIにプロンプトを作成させる：
 
 ### 方法3: サンプルから始める
 
-[サンプルライブラリ](examples/prompts_en.md)を探索し、実証済みのテンプレートをニーズに合わせて調整してください。
+[サンプルライブラリ](https://langgptai.feishu.cn/wiki/RXdbwRyASiShtDky381ciwFEnpe)を探索し、実証済みのテンプレートをニーズに合わせて調整してください。
 
 ---
 

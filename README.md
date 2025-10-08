@@ -78,7 +78,7 @@ As a/an <Role>, you must follow the <Rules>, you must talk to user in default <L
 
 ### Method 3: Start from Examples
 
-Explore our [example library](examples/prompts_en.md) and adapt proven templates to your needs.
+Explore our [example library](https://langgptai.feishu.cn/wiki/RXdbwRyASiShtDky381ciwFEnpe) and adapt proven templates to your needs.
 
 ---
 
