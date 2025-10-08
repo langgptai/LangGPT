@@ -1,378 +1,307 @@
-# 🚀 LangGPT — Empowering everyone to create high-quality prompts!
-<div align=center>
+# 🚀 LangGPT — Empowering Everyone to Create High-Quality Prompts!
+
+<div align="center">
 <img src="imgs/logo.png" width="60%" height="auto">
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![简体中文 badge](https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-Simplified%20Chinese-blue)](README_zh.md)
-[![日本語 badge](https://img.shields.io/badge/%E6%97%A5%E6%9C%AC%E8%AA%9E-Japanese-blue)](README_ja.md)
+[![Paper](https://img.shields.io/badge/arXiv-2402.16929-b31b1b.svg)](https://arxiv.org/abs/2402.16929)
+[![Stars](https://badgen.net/github/stars/langgptai/LangGPT)](https://github.com/langgptai/LangGPT)
+
+[English](README.md) | [简体中文](README_zh.md) | [日本語](README_ja.md)
+
+[Quick Start](#-quick-start) | [Theoretical Foundations](#-theoretical-foundations) | [Ecosystem](#-langgpt-ecosystem) | [Community](http://feishu.langgpt.ai)
+
 </div>
 
-- [【中文文档】](README_zh.md)
-- [【日本語ドキュメント】](README_ja.md)
+---
 
-- [Prompt 的本质](Docs/Prompt的本质.md)
-- [看见与言说](Docs/看见与言说.md)
-- [对话动力学](Docs/对话动力学.md)
-- [镜像性倾向](Docs/镜像性倾向.md)
-- [五种理性](Docs/五种理性.md)
+## 📖 What is LangGPT?
 
-* [**2025.4.30 更新**]： LangGPT 提示词生态
+**LangGPT is a structured, reusable prompt design framework** that enables anyone to create high-quality prompts for Large Language Models. Think of it as a **"programming language for prompts"** — systematic, template-based, and infinitely scalable.
 
-| 仓库名称 | 简介 | Star数量 |
-|---------|------|---------|
-| [飞书知识库-LangGPT 提示词知识库](http://feishu.langgpt.ai) | LangGPT 提示词社区收集整理的提示词资料. | 飞书知识库 |
-| [langgptai/LangGPT](https://github.com/langgptai/LangGPT) | LangGPT: Empowering everyone to become a prompt expert!🚀 Structured Prompt，Language of GPT, 结构化提示词，结构化Prompt | ![GitHub Repo stars](https://badgen.net/github/stars/langgptai/LangGPT) |
-| [langgptai/wonderful-prompts](https://github.com/langgptai/wonderful-prompts) | 🔥中文 prompt 精选🔥，ChatGPT 使用指南，提升 ChatGPT 可玩性和可用性！🚀 | ![GitHub Repo stars](https://badgen.net/github/stars/langgptai/wonderful-prompts) |
-| [langgptai/awesome-claude-prompts](https://github.com/langgptai/awesome-claude-prompts) | This repo includes Claude prompt curation to use Claude better. | ![GitHub Repo stars](https://badgen.net/github/stars/langgptai/awesome-claude-prompts) |
-| [langgptai/Awesome-Multimodal-Prompts](https://github.com/langgptai/Awesome-Multimodal-Prompts) | Prompts of GPT-4V & DALL-E3 to full utilize the multi-modal ability. GPT4V Prompts, DALL-E3 Prompts. | ![GitHub Repo stars](https://badgen.net/github/stars/langgptai/Awesome-Multimodal-Prompts) |
-| [langgptai/LLM-Jailbreaks](https://github.com/langgptai/LLM-Jailbreaks) | LLM Jailbreaks, ChatGPT, Claude, Llama, DAN Prompts, Prompt Leaking | ![GitHub Repo stars](https://badgen.net/github/stars/langgptai/LLM-Jailbreaks) |
-| [langgptai/awesome-llama-prompts](https://github.com/langgptai/awesome-llama-prompts) | LLM prompts, llama3 prompts, llama2 prompts | ![GitHub Repo stars](https://badgen.net/github/stars/langgptai/awesome-llama-prompts) |
-| [langgptai/awesome-grok-prompts](https://github.com/langgptai/awesome-grok-prompts) | A comprehensive collection of advanced prompts engineered for Grok AI. Features optimized templates, strategies, and expert techniques to maximize Grok's potential across diverse applications. | ![GitHub Repo stars](https://badgen.net/github/stars/langgptai/awesome-grok-prompts) |
-| [langgptai/Minstrel](https://github.com/langgptai/Minstrel) | Multi-agent to generate LangGPT prompts. | ![GitHub Repo stars](https://badgen.net/github/stars/langgptai/Minstrel) |
-| [langgptai/awesome-gemini-prompts](https://github.com/langgptai/awesome-gemini-prompts) | Gemini Prompts, Bard Prompts, LLM Prompts, LangGPT | ![GitHub Repo stars](https://badgen.net/github/stars/langgptai/awesome-gemini-prompts) |
-| [langgptai/awesome-deepseek-prompts](https://github.com/langgptai/awesome-deepseek-prompts) | Prompts for deepseek， deepseek R1 | ![GitHub Repo stars](https://badgen.net/github/stars/langgptai/awesome-deepseek-prompts) |
-| [langgptai/qwen-prompts](https://github.com/langgptai/qwen-prompts) | Prompts for qwen models | ![GitHub Repo stars](https://badgen.net/github/stars/langgptai/qwen-prompts) |
-| [langgptai/deep-research-prompts](https://github.com/langgptai/deep-research-prompts) | Prompts for deep research （openai， gemini，qwen） | ![GitHub Repo stars](https://badgen.net/github/stars/langgptai/deep-research-prompts) |
-| [LangGPT 论文](https://arxiv.org/abs/2402.16929) | LangGPT: Rethinking Structured Reusable Prompt Design Framework for LLMs from the Programming Language, [中文版](Papers/LangGPT_paper_cn.md) | 开源发表的LangGPT论文 |
-| [EmbraceAGI 社区](https://github.com/EmbraceAGI) | LangGPT.ai 专注提示词领域，EmbraceAGI 关心泛AI领域如ChatGPT、Agents等内容 | AGI开源社区 |
+### Why LangGPT?
 
-* [**2025.1.28 更新**]: [推理模型：从面向过程到面向目标的提示方法](https://mp.weixin.qq.com/s/FLY0sy1jYv6eT9151Yz_jw) 在AIGC中国开发者大会上的分享，对于推理模型提示方法的变化：从面向过程SOP的提示方法到面向目标的提示方法的范式转变。
+Traditional prompt engineering relies on scattered tips and trial-and-error. LangGPT transforms this chaos into a structured methodology:
 
-* [**2024.12.13 更新**]: [提示词的道和术](https://langgptai.feishu.cn/wiki/AYMWwBPaSih46WkAo9jcfKkfntg) 我们举办的中国提示词工程师大会上，来自中国的提示词布道师李继刚分享了自己提示词创作的经验。
+- 🎯 **Structured Templates** — Hierarchical organization inspired by programming paradigms
+- 🔄 **Reusability** — Create once, adapt infinitely like code modules  
+- 📦 **Modularity** — Variables, commands, and conditional logic at your fingertips
+- ⚡ **Efficiency** — Go from idea to working prompt in minutes
+- 🌍 **Community-Driven** — 11,000+ stars, battle-tested by thousands of users
 
-* [**2024.12.13 更新**]: [从Demo到商用— 构建企业级提示词工程，加速AI应用商用落地](https://langgptai.feishu.cn/wiki/UTyswvusTiRw0TkZLI5cIG0Tnhc) 我们举办的中国提示词工程师大会上，来自中国的AI大模型公司百川智能商业技术总监郭美青分享了企业级提示词工程构建经验。
+> **Academic Foundation**: Published research at [arXiv:2402.16929](https://arxiv.org/abs/2402.16929) | [中文版](Papers/LangGPT_paper_cn.md)
 
-* [**2024.12.13 更新**]: [系统论述：大模型绘画指南，开启AI生产力绘图新时代！](https://mp.weixin.qq.com/s/bJbZ9bwPXxlpyREqLKhDvA) 用大模型绘制文字卡片
+---
 
-* [**2024.09.10 更新**]：[提示词攻击、越狱、泄露和防护](https://mp.weixin.qq.com/s/aaABXnxRqDF716qRk79wYQ), 本文介绍了国内外 AI大模型的安全现状，有关提示注入、越狱、系统提示泄露等攻击方法和防护手段
+## 🚀 Quick Start
 
-* [**2024.06.10 更新**]：[多模态提示词与智能体](https://mp.weixin.qq.com/s/Aan9NXO_vEZ9h0YrugpoGQ), 本文介绍了 GPT-4O 等多模态模型可使用的标记提示法和标记集提示法。
+### Method 1: Use Automated Tools (Fastest)
 
-应用案例推荐：[gptpdf 项目](https://github.com/CosmosShadow/gptpdf) , 使用 GPT4o 完美解析 PDF。 方法简单但是很有效，使用 PyMuPDF 库，对 PDF 进行解析出所有非文本区域，并做好标记，然后使用视觉大语言模型（如 GPT-4o）将 PDF 解析为 markdown。几乎可以完美地解析排版、数学公式、表格、图片、图表等。
+Let AI create prompts for you:
 
-* [**2024.04.22 更新**]：[PromptShow 上线|轻松展示分享你的结构化提示词](https://show.langgpt.ai/) 欢迎访问 https://show.langgpt.ai/ 试用
+- **[LangGPT GPTs](https://chat.openai.com/g/g-Apzuylaqk-langgpt)** — Full-featured generator (GPT-4)
+- **[Kimi+ LangGPT](https://kimi.moonshot.cn/kimiplus/conpg00t7lagbbsfqkq0)** — For Moonshot Kimi users
+- **[PromptGPT](https://chat.openai.com/g/g-YKe3gmydD-promptgpt)** — Lite version (GPT-3.5)
 
-* [**2024.04.13 更新**]：[提示词工程师必看系列：如何写好Prompt？](https://mp.weixin.qq.com/s/I2KfZt83c_7RmDNcDAuzCA)
+### Method 2: Master the Template (5 Minutes)
 
-* [**2024.04.03 更新**]：[如何让 LLM 应用性能登峰造极](https://mp.weixin.qq.com/s/Kr16ub_FN6pTF6acs-e6MA)
-  
-* [**2024.01.31 更新**]：[GPTs: LangGPT 提示词专家](https://chat.openai.com/gpts/editor/g-Apzuylaqk) 自动化创建结构化提示词的简易版 GPTs, 持续更新中
+Basic LangGPT structure:
 
-* [**2024.01.14 更新**]：[年度分享：“AI 交流的艺术：Prompt Engineering 2023 年度视角”](Docs/PromptAnnualReview.md)
-  
-* [**2023.12.20 更新**]：[【创业邦采访】欢迎来到提示词的美丽新世界](https://mp.weixin.qq.com/s/umWT_79m7MpohfrKdlqUiw)
-  
-* [**2023.10.31 更新**]：[AI 超级个体见面会分享发言稿](Docs/AgentsResume.md) 和 [PPT](Docs/PPT_Agents_LangGPT.pdf), 模板增加 tools 模块
-  
-* [**2023.9.03 更新**]：[BiliBili 视频教程（感谢 AIGCLINK）](https://www.bilibili.com/video/BV1rj411q78a)
-
-* [**2023.8.31 更新**]：[Prompt 进阶 —— 提示链（Prompt Chain）和多提示词协同](Docs/PromptChain.md)
-
-* [**2023.7.30 更新**]：[系统论述：构建高性能 Prompt 之路——结构化 Prompt](Docs/HowToWritestructuredPrompts.md)
-
-The LangGPT project aims to facilitate the seamless creation of high-quality ChatGPT prompts for everyone by utilizing a structured, template-based methodology. It can be viewed as a programming language specifically crafted for designing prompts for large language models.
-
-Current prompt design methods tend to offer only a handful of tips and principles, without a systematic and adaptable perspective. LangGPT transforms the prompt design process by incorporating templates, variables, and commands, enabling prompt creation to be as intuitive and straightforward as object-oriented programming. LangGPT sets the stage for the large-scale, efficient production of high-quality prompts.
-
-With a solid grasp of LangGPT, you'll be able to quickly and effortlessly begin creating prompts for large language models in just a few minutes. 🚀 No need to save so many prompts anymore!
-
-> You can find out more details in the [paper](https://arxiv.org/abs/2402.16929). For Chinese version you can check:[中文版](Docs/【论文中文版】LangGPT：面向大模型的自然语言编程框架.pdf)
-
-## 教程
-| 更新内容 | 简介 | 更新日期 |
-|-|-|-|
-| [LangGPT 论文](https://arxiv.org/abs/2402.16929) | LangGPT: Rethinking Structured Reusable Prompt Design Framework for LLMs from the Programming Language, [中文版](Papers/LangGPT_paper_cn.md) | 2024.2.26 |
-| [GPTs: LangGPT 提示词专家](https://chat.openai.com/gpts/editor/g-Apzuylaqk) | 自动化创建结构化提示词的GPTs | 2024.1.31 |
-| [kimi+: kimi x LangGPT 提示词专家](https://kimi.moonshot.cn/kimiplus/conpg00t7lagbbsfqkq0) | Kimi上自动化创建结构化提示词的GPTs | 2024.3.3 |
-| [视频 01-BiliBili 视频教程](https://www.bilibili.com/video/BV1rj411q78a) | B 站 UP 主 AIGCLINK 制作的 LangGPT 视频教程！感谢 AIGCLINK！ | 2023.9.03 |
-| [文章 01-系统论述:构建高性能 Prompt 之路——结构化 Prompt](Docs/HowToWritestructuredPrompts.md) | 关于结构化提示词看这篇就够了！ | 2023.7.30 |
-| [文章 02-Prompt 进阶 —— 提示链(Prompt Chain)和多提示词协同](Docs/PromptChain.md) | Prompt Chain 和 Prompt 协同，任务拆解等， LangGPT 社区联署联创文章. | 2023.8.31 |
-| [知识库 01-LangGPT 提示词知识库](http://feishu.langgpt.ai) | LangGPT 提示词社区收集整理的提示词资料. | 2023.9.03 |
-
-## Quick Start
-
-You can begin utilizing LangGPT for crafting potent prompts by simply continue the shared chat using GPT-4. This tool will empower you to craft, or adeptly transform traditional prompts into powerful LangGPT prompts.
-
-* [LangGPT GPTs](https://chat.openai.com/g/g-Apzuylaqk-langgpt)  GPTs for LangGPT
-* [LangGPT Helper **For GPT-3.5**](https://chat.openai.com/g/g-YKe3gmydD-promptgpt)
-
-You can find the corresponding Prompt in the `LangGPT` folder. Note that the prompt is still in developing.
-
-
-
-## Prerequisites
-* Markdown. If you're not familiar with it, you can refer to this [Markdown Tutorial](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). (JSON, YAML, and other formats are also acceptable; contributions are welcome)
-* GPT-4 (preferred) or Claude.
-
-## Getting Started
-
-Here, we provide a small `FitnessGPT` example to help you quickly get started with LangGPT. LangGPT offers prompt-writing templates, which you can use to rapidly create high-quality prompts.
-
-```
-# Role: FitnessGPT
-
-## Profile
-
-- Author: YZFly
-- Version: 0.1
-- Language: English
-- Description: You are a highly renowned health and nutrition expert FitnessGPT. Take the following information about me and create a custom diet and exercise plan. 
-
-### Create custom diet and exercise plan
-1. Take the following information about me
-2. I am #Age years old, #Gender, #Height. 
-3. My current weight is #Currentweight. 
-4. My current medical conditions are #MedicalConditions. 
-5. I have food allergies to #FoodAllergies. 
-6. My primary fitness and health goals are #PrimaryFitnessHealthGoals. 
-7. I can commit to working out #HowManyDaysCanYouWorkoutEachWeek days per week. 
-8. I prefer and enjoy his type of workout #ExercisePreference. 
-9. I have a diet preference #DietPreference. 
-10. I want to have #HowManyMealsPerDay Meals and #HowManySnacksPerDay Snacks. 
-11. I dislike eating and cannot eat #ListFoodsYouDislike. 
-
-## Rules
-1. Don't break character under any circumstance. 
-2. Avoid any superfluous pre and post descriptive text.
-
-## Workflow
-1. You will analysis the given the personal information.
-2. Create a summary of my diet and exercise plan. 
-3. Create a detailed workout program for my exercise plan. 
-4. Create a detailed Meal Plan for my diet. 
-5. Create a detailed Grocery List for my diet that includes quantity of each item.
-6. Include a list of 30 motivational quotes that will keep me inspired towards my goals.
-
-## Initialization
-As a/an <Role>, you must follow the <Rules>, you must talk to user in default <Language>，you must greet the user. Then introduce yourself and introduce the <Workflow>.
-```
-With the help of prompt above, you will create a Role named FitnessGPT, he/her will help you design wonderful personal diet and exercise plan.
-
-### More Examples
-Here are more [LangGPT prompts](examples/prompts_en.md). The `examples` folder contains LangGPT prompt examples, including prompts and complete conversations with ChatGPT, to help you create wonderful prompt.
-
-* [Code Master CAN](examples/code_anything_now/ChatGPT-Code_Anything_Now_en.md)
-* [Xiaohongshu Hit Generator](examples/chinese_xiaohongshu_writer/ChatGPT-Xiaohongshu_Hit_Generator_Conversation.md)
-* [Chinese Poet](examples/chinese_poet/ChatGPT-chinese_poet.md)
-
-## Role 
-
-ChatGPT excels at role-playing. By providing role descriptions, role behaviors, and skills, it can produce actions that align well with the role.
-
-Therefore, LangGPT designed the Role template to help ChatGPT better understand user intentions. The Role template is the core of LangGPT.
-
-### Role Template
-
-Here is the markdown Role template:
-```
+```markdown
 # Role: Your_Role_Name
 
 ## Profile
-
-- Author: YZFly
+- Author: YourName
 - Version: 1.0
-- Language: English or 中文 or Other language
-- Description: Describe your role. Give an overview of the role's characteristics and skills
+- Language: English
+- Description: Clear role description and core capabilities
 
 ### Skill-1
-1.skill description 1
-2.skill description 2
-
-### Skill-2
-1.skill description 1
-2.skill description 2
+1. Specific skill description
+2. Expected behavior and output
 
 ## Rules
-1. Don't break character under any circumstance.
-2. Don't talk nonsense and make up facts.
+1. Don't break character under any circumstance
+2. Don't make up facts or hallucinate
 
 ## Workflow
-1. First, xxx
-2. Then, xxx
-3. Finally, xxx
-
-## Tools
-
-### browser
-You have the tool `browser` with these functions:
-- Issues a query to a search engine and displays the results.
-- Opens the webpage with the given id, displaying it.
-- Returns to the previous page and displays it.
-- Scrolls up or down in the open webpage by the given amount.
-- Opens the given URL and displays it.
-- Stores a text span from an open webpage. Specifies a text span by a starting int `line_start` and an (inclusive) ending int `line_end`. To quote a single line, use `line_start` = `line_end`.
-
-### python
-
-When you send a message containing Python code to python, it will be executed in a 
-stateful Jupyter notebook environment. python will respond with the output of the execution or time out after 60.0
-seconds. The drive at '/mnt/data' can be used to save and persist user files. Internet access for this session is disabled. Do not make external web requests or API calls as they will fail.
-
-### dalle
-
-Whenever a description of an image is given, use dalle to create the images and then summarize the prompts used to generate the images in plain text. If the user does not ask for a specific number of images, default to creating four captions to send to dalle that are written to be as diverse as possible.
-
-### More Tools
+1. Analyze user input and identify intent
+2. Apply relevant skills systematically
+3. Deliver structured, actionable output
 
 ## Initialization
-As a/an <Role>, you must follow the <Rules>, you must talk to user in default <Language>，you must greet the user. Then introduce yourself and introduce the <Workflow>.
+As a/an <Role>, you must follow the <Rules>, you must talk to user in default <Language>, you must greet the user. Then introduce yourself and introduce the <Workflow>.
 ```
 
-The `Role template` primarily consists of four sections:
+**Prerequisites**: Basic Markdown knowledge ([Quick Guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)) | GPT-4 or Claude recommended
 
-* `Profile`: The role's resume, including role description, characteristics, skills, and any other desired traits.
-* `Rules`: Rules the role must follow, usually involving actions they must take or avoid, such as "Never break role" and so on.
-* `Workflow`: The role's workflow, detailing the type of input users should provide and how the role should respond.
-* `Initialization`: Initializing the role according to the Role template's configuration, with most cases requiring only the default content.
+### Method 3: Start from Examples
 
-A role can be defined and configured using the four sections defined above.
+Explore our [example library](examples/prompts_en.md) and adapt proven templates to your needs.
 
-Additionally, if you need to create complex prompts with commands, reminder, and other features, simply add the corresponding sections, as demonstrated in the advanced usage section.
+---
 
-### Steps to Use the Role Template
+## 🧠 Theoretical Foundations
 
-1. Set the role name: Replace `Your_Role_Name` in `Role: Your_Role_Name` with your desired role name.
-2. Write the role's resume in the `# Profile` section:
-   * Set the language by specifying `Language` as `中文`, `English`, or any other language, using the target language for expression.
-   * Briefly describe the role after `Description`.
-   * Add role skills under the `### Skill` section. You can set multiple skills with bulleted descriptions for each skill.
-3. Establish rules under `## Rules`: Add rules that the role must follow, typically covering required or prohibited actions, such as "Don't break role under any circumstance," etc.
-4. Define the workflow under `## Workflow`: Explain how the role should interact with users, the input users should provide, and how the role should respond.
-5. Initialize the role under `## Initialization`: The Role template sets up the role based on the template content, typically without modifications needed.
-6. Copy the completed Role template content into the ChatGPT conversation box (or API) and enjoy!
+Before diving into tactics, understand the principles. These essays explore the philosophy behind effective prompting:
 
-## Advanced Usage
+- **[Prompt 的本质](Docs/Prompt的本质.md)** — The essence and nature of prompts
+- **[看见与言说](Docs/看见与言说.md)** — Seeing and articulation in AI interaction  
+- **[对话动力学](Docs/对话动力学.md)** — The dynamics of human-AI dialogue
+- **[镜像性倾向](Docs/镜像性倾向.md)** — Mirror tendencies in LLM behavior
+- **[五种理性](Docs/五种理性.md)** — Five types of rationality in prompt design
 
-As people continue to explore the capabilities of large models, LangGPT is still under development and refinement. Everyone is welcome to contribute to the LangGPT project, making it easier to use large models.
+*These foundational insights will transform how you think about prompts.*
 
-### Variables
+---
 
-**Variables offer significant versatility in prompt writing, simplifying the process of referencing role content, setting, and modifying role attributes.**
+## 💡 Core Concepts
 
-This is an aspect that traditional prompt methods often find challenging to execute.
+### 1. Structured Roles
 
-The `Initialization` part of the Role template makes extensive use of variables:
+Define AI personas through clear, modular sections:
 
-    As a/an <Role>, you must follow the <Rules>, you must talk to the user in the default <Language>, you must greet the user. Then introduce yourself and introduce the <Workflow>.
+| Section | Purpose | Example |
+|---------|---------|---------|
+| **Role** | Role name/title | "逻辑学家" / "Expert Analyst" / "FitnessGPT" |
+| **Profile** | Identity and capabilities | "Expert Python developer with 10 years experience" |
+| **Skills** | Specific abilities | "Debug complex code, optimize performance" |
+| **Rules** | Boundaries and constraints | "Never execute destructive commands" |
+| **Workflow** | Interaction logic | "1. Analyze → 2. Plan → 3. Execute" |
+| **Initialization** | Opening message and setup | "As a <Role>, I will greet you and introduce the <Workflow>" |
 
-In LangGPT, variables are denoted by "<>". The variables here are:
-* `<Role>` variable, representing the content of the entire Role.
-* `<Rules>` variable, representing the rules in the `## Rules` section.
-* `<Language>` variable, representing the value of the `Language` field.
+### 2. Variables and References
 
-Markdown's hierarchical structure allows ChatGPT to easily identify the content represented by variables:
-* Role is the article title, with a scope covering the entire text.
-* Rule is a paragraph title, with a scope limited to the paragraph.
-* Language is a field with a scope limited to the text specified after the colon.
+Use `<Variable>` syntax for dynamic content:
 
-### Commands
-
-`Commands` make it easy to set some default actions, such as `"/help" to provide help documentation, "/continue" to continue writing text` etc. which are all very useful commands.
-
-* Use '/' as the convention to indicate commands.
-* Add the following content to the Role template:
+```markdown
+As a <Role>, you must follow <Rules> and communicate in <Language>
 ```
+
+This creates self-referential prompts that maintain consistency across complex instructions.
+
+### 3. Commands
+
+Define reusable actions for better UX:
+
+```markdown
 ## Commands
 - Prefix: "/"
 - Commands:
-    - help: This means that user do not know the commands usage. Please introduce yourself and the commands usage.
-    - continue: This means that your output was cut. Please continue where you left off.
+    - help: Display all available commands
+    - continue: Resume interrupted output
+    - improve: Enhance current response with deeper analysis
 ```
 
-### Reminder
+### 4. Conditional Logic
 
-Using a `Reminder` can help alleviate ChatGPT's forgetting issue.
+Add intelligence to your prompts:
 
-Add a `Reminder` to the Role template:
-
+```markdown
+If user provides [code], then analyze and suggest improvements
+Else if user asks [question], then provide detailed explanation
+Else, prompt for clarification
 ```
+
+### 5. Advanced Techniques
+
+**Reminders** — Combat context loss in long conversations:
+```markdown
 ## Reminder
-
-1. 'Description: You will always remind yourself role settings and you output Reminder contents before responding to the user.'
-2. 'Reminder: The user language is language (<language>), rules (<rules>).'
-3. "<output>"
+1. Always check role settings before responding
+2. Current language: <Language>, Active rules: <Rules>
 ```
 
-### Conditional Statements
+**Alternative Formats** — Use JSON/YAML when markdown isn't ideal:
+```yaml
+role: DataAnalyst
+profile:
+  version: "2.0"
+  language: "Python"
+skills:
+  - statistical_analysis
+  - data_visualization
+```
 
-Use conditional statements just like in programming, with a template like:
+---
 
-If [situation1 happen], you will take [action1], else, you will take [action2]
+## 🌟 Featured Examples
 
-### Json or Yaml for Convenient Program Development
+| Prompt | Description | Link |
+|--------|-------------|------|
+| 🎯 **FitnessGPT** | Personalized diet and workout planner | [View](examples/FitnessGPT.md) |
+| 💻 **Code Master CAN** | Advanced coding assistant with debugging expertise | [View](examples/code_anything_now/ChatGPT-Code_Anything_Now_en.md) |
+| ✍️ **Xiaohongshu Writer** | Viral social media content generator | [View](examples/chinese_xiaohongshu_writer/) |
+| 🎨 **Chinese Poet** | Classical poetry composer in traditional styles | [View](examples/chinese_poet/) |
 
-**Although LangGPT currently employs markdown language, any markup method capable of expressing hierarchical relationships, such as JSON or YAML, can also be utilized.**
+[Browse 100+ more examples →](https://langgptai.feishu.cn/wiki/RXdbwRyASiShtDky381ciwFEnpe)
 
-Maybe ChatGPT could assist in creating a conversion script?
+---
 
-## LangGPT GPTs
-|GPTs|点击开玩|介绍|
-|---|---|---|
-|[LangGPT 提示词专家✍️](https://chat.openai.com/g/g-Apzuylaqk-langgpt)|[点击开玩](https://chat.openai.com/g/g-Apzuylaqk-langgpt)| 结构化提示词 GPTs 全量官方版本！🎯📚 简单一键，即可生成有条理的提示词，提升你的写作和创作效率！🔍✨|
-|[PromptGPT✍️](https://chat.openai.com/g/g-YKe3gmydD-promptgpt)|[点击开玩](https://chat.openai.com/g/g-YKe3gmydD-promptgpt)| 结构化提示词lite版，年薪百万的大厂提示词工程师帮你写高质量提示词，快上车体验驾驭大模型的爽感！|
-|[SmartGPT-5🧠](https://chat.openai.com/g/g-sRQtxpN4C-smartgpt-5)|[点击开玩](https://chat.openai.com/g/g-sRQtxpN4C-smartgpt-5)| 永不变懒，聪明勤奋的GPT！提前体验 GPT-5 的爽感！|
-|[中文演讲标题大师🌈](https://chat.openai.com/g/g-zQsF8X4SY-zhong-wen-yan-jiang-biao-ti-da-shi)|[点击开玩](https://chat.openai.com/g/g-zQsF8X4SY-zhong-wen-yan-jiang-biao-ti-da-shi)| 想要完美的中文演讲标题？演讲标题大师来帮忙！🚀 提供10个精准、吸引人的标题，让您的演讲内容大放异彩！🌈！|
-|[MathGPT🏅](https://chat.openai.com/g/g-UIOlPhTjK-mathgpt)|[点击开玩](https://chat.openai.com/g/g-UIOlPhTjK-mathgpt)| 解题能力又强又准的数学专家！🤓📚 将问题转化为方程并解决它们。你的数学伙伴来帮你做作业！🏅✏️！|
-|[PPT Maker🎨](https://chat.openai.com/g/g-wko0Ifhjv-ppt-maker)|[点击开玩](https://chat.openai.com/g/g-wko0Ifhjv-ppt-maker)| PPT大师，帮你制作有内容的 PPT 🚀 它浏览网页以获取内容，概述您的PPT，并使用前沿内容填充幻灯片。🖥️✨|
-|[WriteGPT✍️](https://chat.openai.com/g/g-jwTMtRiL8-writegpt)|[点击开玩](https://chat.openai.com/g/g-jwTMtRiL8-writegpt)| WriteGPT：专业写作专家！📝🚀 专业为任何行业制作高质量的文书。📈📚|
-|[LogoGPT🎨](https://chat.openai.com/g/g-wdz2JlUBv-logogpt)|[点击开玩](https://chat.openai.com/g/g-wdz2JlUBv-logogpt)| 使用LogoGPT创建漂亮的Logo！🖌️ |
-|[Data Table GPT📊](https://chat.openai.com/g/g-nb6RjxHsb-data-table-gpt)|[点击开玩](https://chat.openai.com/g/g-nb6RjxHsb-data-table-gpt)| 复制并粘贴您的杂乱数据！将杂乱的数据转换为整洁的数据表。📁✨|
-|[Coding Expert👨‍💻](https://chat.openai.com/g/g-ky06YjwaP-coding-expert)|[点击开玩](https://chat.openai.com/g/g-ky06YjwaP-coding-expert)| 编程专家，轻松解决你的所有编码难题！🛠️💻！|
-|[PDF Reader🧐](https://chat.openai.com/g/g-YaMjCVW0t-pdf-reader)|[点击开玩](https://chat.openai.com/g/g-YaMjCVW0t-pdf-reader)| PDF阅读器：深入文档！帮助你结构化高效阅读文档。📋👁️！|
-|[Research Paper Reading📚](https://chat.openai.com/g/g-GLDYZOeQI-research-paper-reading)|[点击开玩](https://chat.openai.com/g/g-GLDYZOeQI-research-paper-reading)| 研究论文阅读助手：遵循阅读三步法来帮助你掌握学术论文。️📈📚！|
-|[EmojiGPT🌈](https://chat.openai.com/g/g-Q41Hltsbw-emojigpt)|[点击开玩](https://chat.openai.com/g/g-Q41Hltsbw-emojigpt)| 将文本转换为表情符号艺术！💌💥！|
-|[Travel Planning📅](https://chat.openai.com/g/g-mO2OuYxhX-travel-planning)|[点击开玩](https://chat.openai.com/g/g-mO2OuYxhX-travel-planning)| 旅行规划助理：您的旅程设计师！为您量身定制的个性化行程，让您的每一次旅行都令人难忘。️🌍🗺️🏖️！|
-|[Picture Creator🎨](https://chat.openai.com/g/g-1Gm9C3UBT-picture-creator)|[点击开玩](https://chat.openai.com/g/g-1Gm9C3UBT-picture-creator)| 漂亮手办娃娃生成：释放你的想象力！为风格化的图像生成详细的、很酷的提示。🔥👾！|
-|[LinuxGPT🐧](https://chat.openai.com/g/g-Q41Hltsbw-emojigpt)|[点击开玩](https://chat.openai.com/g/g-Q41Hltsbw-emojigpt)| LinuxGPT：释放Linux的力量！专注于bash脚本和命令行操作。提升您的linux技术！🚀👨‍💻！|
-|[PytorchGPT🔥](https://chat.openai.com/g/g-kyj3zKyHK-pytorchgpt)|[点击开玩](https://chat.openai.com/g/g-kyj3zKyHK-pytorchgpt)| PytorchGPT：你的PyTorch代码耳语者！🤖🔥 熟练地制作和解释PyTorch模型代码，从简单的网络到复杂的架构。🧠💻！|
-|[🎀翻译大小姐](https://chat.openai.com/g/g-2V90YGvVD-fan-yi-da-xiao-jie)|[点击开玩](https://chat.openai.com/g/g-2V90YGvVD-fan-yi-da-xiao-jie)| 来自刚哥的信达雅翻译，年薪百万的翻译小姐姐为你打工！最棒的中文翻译，信达雅，超级地道优雅的中文表达！|
-|[时事热评员🎙️](https://chat.openai.com/g/g-gbfs6fy7c-shi-shi-re-ping-yuan)|[点击开玩](https://chat.openai.com/g/g-gbfs6fy7c-shi-shi-re-ping-yuan)|热评员：意见领袖！🎤💡 为您的主题提供深刻见解和热评，帮助您洞察核心价值！🌐🔖|
-|[AI算法工程师](https://chat.openai.com/g/g-oCwXYY0x2-ai-gpt)|[点击开玩](https://chat.openai.com/g/g-oCwXYY0x2-ai-gpt)|AI 设计 AI|
-|[StableAudioGPT](https://chat.openai.com/g/g-jAr0hpLsL-stableaudiogpt)|[点击开玩](https://chat.openai.com/g/g-jAr0hpLsL-stableaudiogpt)|Stable Audio 提示词生成|
-|[🛠️AutoGPT(coding)](https://chat.openai.com/g/g-n3SaHyp2N-autogpt-coding)|[点击开玩](https://chat.openai.com/g/g-n3SaHyp2N-autogpt-coding)|AutoGPT👨‍💻，自动运行📈，输出超长，一键完成项目框架构建！🖲️|
+## 📚 Learning Resources
 
-## 🤝 Partnership
+### Essential Guides
 
-* [securityGPT](https://github.com/rryuliu/securityGPT) Protect your GPTs through secure prompts to prevent malicious data leaks.
-* [AIPainting-Structured-Prompts](https://github.com/zhutyler21/AIPainting-Structured-Prompts) 结构化生成 AI绘画创作的Prompt，适用于DALLE和MidJourney等多平台。
+| Resource | Description | Date |
+|----------|-------------|------|
+| [Academic Paper](https://arxiv.org/abs/2402.16929) | LangGPT: Rethinking Structured Reusable Prompt Design ([中文](Papers/LangGPT_paper_cn.md)) | Feb 2024 |
+| [Structured Prompts Guide](Docs/HowToWritestructuredPrompts.md) | Comprehensive tutorial on building high-performance prompts | Jul 2023 |
+| [Prompt Chains](Docs/PromptChain.md) | Multi-prompt collaboration and task decomposition strategies | Aug 2023 |
+| [Video Tutorial](https://www.bilibili.com/video/BV1rj411q78a) | BiliBili walkthrough (by AIGCLINK) | Sep 2023 |
 
-## 🤩 Development Plan
+### Advanced Topics
 
-The project is currently in its early and primitive stages, with a significant workload. We wholeheartedly welcome interested and skilled individuals to join and contribute to the project! 🆘
+- **[推理模型提示方法变革](https://mp.weixin.qq.com/s/FLY0sy1jYv6eT9151Yz_jw)** — Paradigm shift from procedural to goal-oriented prompting
+- **[提示词的道和术](https://langgptai.feishu.cn/wiki/AYMWwBPaSih46WkAo9jcfKkfntg)** — Philosophy and practice of prompt engineering by 李继刚
+- **[企业级提示词工程](https://langgptai.feishu.cn/wiki/UTyswvusTiRw0TkZLI5cIG0Tnhc)** — Building production-ready prompt systems (百川智能)
+- **[多模态提示词](https://mp.weixin.qq.com/s/Aan9NXO_vEZ9h0YrugpoGQ)** — GPT-4V and multi-modal prompting techniques
+- **[提示词攻击与防护](https://mp.weixin.qq.com/s/aaABXnxRqDF716qRk79wYQ)** — Security: prompt injection, jailbreaks, and defenses
+- **[大模型绘画指南](https://mp.weixin.qq.com/s/bJbZ9bwPXxlpyREqLKhDvA)** — AI image generation with structured prompts
 
-| Task | Description | Status |
-| --- | --- | --- |
-| Role Basic Template | Basic Prompt role design template, encompassing a majority of use cases | ✅ |
-| Documentation and Usage | Fundamentals of documentation, usage, and simple examples | ✅ |
-| Advanced Syntax Features | Develop more advanced syntax features alongside improvements in large model capabilities, such as longer context lengths, better long-term memory, and plugins | 📆 🆘|
-| Prompt Chain | Collaboration between multi-role and prompt chains | 📆 🆘|
-| Support for JSON/YAML | Support for JSON, YAML, and other markup formats to streamline development | 🔜 🆘|
-| Role Advanced Template | Build upon the basic template by incorporating commands, environment settings, plugin functionality, network control, and other advanced features | 🔜 🆘|
-| Examples | Supply more LangGPT template-based prompt examples and comprehensive conversation usage | ✅|
-| Documentation | Enhance documentation and perfect usage | ✅|
-| Website | Display documentation and examples for easy access | 📆 🆘|
+### Community Hub
 
-## Star History
+**[Feishu Knowledge Base](http://feishu.langgpt.ai)** — Curated resources, templates, and community contributions
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yzfly/LangGPT&type=Date)](https://star-history.com/#yzfly/LangGPT&Date)
+---
 
-## Contribution Guidelines
+## 🎨 LangGPT Ecosystem
 
-1. Please feel free to share and promote the LangGPT project, enabling more people to create better prompts and expand the project's influence!
-2. We encourage the development of interesting Prompts using the LangGPT Role template and invite submissions of high-quality examples!
-3. Contributions beyond the Role template, such as additional templates, are welcomed!
-4. Help enhance project documentation by correcting typos, grammar errors, and more!
-5. Assist in building the project website for better accessibility!
-6. Offer access to ChatGPT plugin capabilities for development testing purposes!
-7. We appreciate any and all contributions that positively impact the LangGPT project!
+### Core Framework & Tools
 
+| Project | Description | Stars |
+|---------|-------------|-------|
+| **[LangGPT](https://github.com/langgptai/LangGPT)** | Core framework and methodology | ![](https://badgen.net/github/stars/langgptai/LangGPT) |
+| **[PromptVer](https://github.com/langgptai/PromptVer)** | Semantic versioning for prompts — version control like Git | ![](https://badgen.net/github/stars/langgptai/PromptVer) |
+| **[PromptShow](https://github.com/langgptai/PromptShow)** | Create beautiful prompt images ([Try it](https://show.langgpt.ai/)) | ![](https://badgen.net/github/stars/langgptai/PromptShow) |
+| **[Minstrel](https://github.com/langgptai/Minstrel)** | Multi-agent system for auto-generating prompts | ![](https://badgen.net/github/stars/langgptai/Minstrel) |
 
-If you are not familiar with using GitHub, you can refer to:
-[GitHub Minimal Contribution Guide: Issue and PR](https://github.com/datawhalechina/DOPMC/blob/main/GITHUB.md)
+### Model-Specific Prompt Collections
 
-## Citation
-If you used or referenced this project, please cite it in the following format:
+Curated, optimized prompts for different AI models:
+
+| Collection | Target Model | Stars |
+|------------|--------------|-------|
+| [wonderful-prompts](https://github.com/langgptai/wonderful-prompts) | ChatGPT (Chinese) | ![](https://badgen.net/github/stars/langgptai/wonderful-prompts) |
+| [awesome-claude-prompts](https://github.com/langgptai/awesome-claude-prompts) | Anthropic Claude | ![](https://badgen.net/github/stars/langgptai/awesome-claude-prompts) |
+| [awesome-deepseek-prompts](https://github.com/langgptai/awesome-deepseek-prompts) | DeepSeek & R1 | ![](https://badgen.net/github/stars/langgptai/awesome-deepseek-prompts) |
+| [awesome-gemini-prompts](https://github.com/langgptai/awesome-gemini-prompts) | Google Gemini | ![](https://badgen.net/github/stars/langgptai/awesome-gemini-prompts) |
+| [awesome-grok-prompts](https://github.com/langgptai/awesome-grok-prompts) | xAI Grok | ![](https://badgen.net/github/stars/langgptai/awesome-grok-prompts) |
+| [qwen-prompts](https://github.com/langgptai/qwen-prompts) | Alibaba Qwen | ![](https://badgen.net/github/stars/langgptai/qwen-prompts) |
+| [awesome-llama-prompts](https://github.com/langgptai/awesome-llama-prompts) | Meta Llama 2/3 | ![](https://badgen.net/github/stars/langgptai/awesome-llama-prompts) |
+| [awesome-doubao-prompts](https://github.com/langgptai/awesome-doubao-prompts) | ByteDance Doubao | ![](https://badgen.net/github/stars/langgptai/awesome-doubao-prompts) |
+| [awesome-system-prompts](https://github.com/langgptai/awesome-system-prompts) | System prompts from AI tools | ![](https://badgen.net/github/stars/langgptai/awesome-system-prompts) |
+
+### Specialized Domains
+
+| Repository | Focus Area | Stars |
+|------------|------------|-------|
+| [Awesome-Multimodal-Prompts](https://github.com/langgptai/Awesome-Multimodal-Prompts) | GPT-4V, DALL-E 3, image/video prompts | ![](https://badgen.net/github/stars/langgptai/Awesome-Multimodal-Prompts) |
+| [deep-research-prompts](https://github.com/langgptai/deep-research-prompts) | Deep research across models | ![](https://badgen.net/github/stars/langgptai/deep-research-prompts) |
+| [awesome-voice-prompts](https://github.com/langgptai/awesome-voice-prompts) | Voice AI and conversational agents | ![](https://badgen.net/github/stars/langgptai/awesome-voice-prompts) |
+| [GraphRAG-Prompts](https://github.com/langgptai/GraphRAG-Prompts) | Graph-based retrieval prompts | ![](https://badgen.net/github/stars/langgptai/GraphRAG-Prompts) |
+| [LLM-Jailbreaks](https://github.com/langgptai/LLM-Jailbreaks) | Security research and defenses | ![](https://badgen.net/github/stars/langgptai/LLM-Jailbreaks) |
+
+### Applications
+
+| Project | Description | Stars |
+|---------|-------------|-------|
+| [BookAI](https://github.com/langgptai/BookAI) | AI-powered book generation | ![](https://badgen.net/github/stars/langgptai/BookAI) |
+| [AI-Resume](https://github.com/langgptai/AI-Resume) | Beautiful resumes with Claude Artifacts | ![](https://badgen.net/github/stars/langgptai/AI-Resume) |
+
+---
+
+## 🛠️ Popular GPTs Built with LangGPT
+
+Transform ChatGPT with these specialized assistants:
+
+| GPT | Purpose | Link |
+|-----|---------|------|
+| 🎯 **LangGPT Expert** | Auto-generate structured prompts | [Launch](https://chat.openai.com/g/g-Apzuylaqk-langgpt) |
+| ✍️ **PromptGPT** | Professional prompt engineer | [Launch](https://chat.openai.com/g/g-YKe3gmydD-promptgpt) |
+| 🧠 **SmartGPT-5** | Never lazy, always diligent assistant | [Launch](https://chat.openai.com/g/g-sRQtxpN4C-smartgpt-5) |
+| 💻 **Coding Expert** | Comprehensive programming assistant | [Launch](https://chat.openai.com/g/g-ky06YjwaP-coding-expert) |
+| 📊 **Data Table GPT** | Transform messy data into clean tables | [Launch](https://chat.openai.com/g/g-nb6RjxHsb-data-table-gpt) |
+| 🔥 **PytorchGPT** | PyTorch code specialist | [Launch](https://chat.openai.com/g/g-kyj3zKyHK-pytorchgpt) |
+| 🎨 **LogoGPT** | Professional logo designer | [Launch](https://chat.openai.com/g/g-wdz2JlUBv-logogpt) |
+| 📄 **PDF Reader** | Deep document analysis and extraction | [Launch](https://chat.openai.com/g/g-YaMjCVW0t-pdf-reader) |
+| 🏅 **MathGPT** | Precise mathematical problem solver | [Launch](https://chat.openai.com/g/g-UIOlPhTjK-mathgpt) |
+| 📝 **WriteGPT** | Professional writing across industries | [Launch](https://chat.openai.com/g/g-jwTMtRiL8-writegpt) |
+| 🎙️ **时事热评员** | Current events commentator | [Launch](https://chat.openai.com/g/g-gbfs6fy7c-shi-shi-re-ping-yuan) |
+| 🎀 **翻译大小姐** | Elegant Chinese translations | [Launch](https://chat.openai.com/g/g-2V90YGvVD-fan-yi-da-xiao-jie) |
+
+[Discover 20+ more GPTs →](https://github.com/langgptai/LangGPT#langgpt-gpts)
+
+---
+
+## 🤝 Contributing
+
+We welcome all contributions to make LangGPT better!
+
+### How You Can Help
+
+1. ⭐ **Star and share** — Increase visibility and help others discover LangGPT
+2. 📝 **Submit examples** — Share your successful prompts built with LangGPT
+3. 🆕 **Propose templates** — Create new templates beyond the Role structure
+4. 📖 **Improve docs** — Fix typos, clarify instructions, add translations
+5. 💡 **Suggest features** — Open issues with ideas for new capabilities
+6. 🔧 **Code contributions** — Help build tools, utilities, and integrations
+
+### Getting Started
+
+New to GitHub contributions? Check out this [GitHub Minimal Contribution Guide](https://github.com/datawhalechina/DOPMC/blob/main/GITHUB.md)
+
+---
+
+## 📊 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=langgptai/LangGPT&type=Date)](https://star-history.com/#langgptai/LangGPT&Date)
+
+---
+
+## 📄 Citation
+
+If you use LangGPT in research or projects, please cite:
 
 ```bibtex
 @misc{wang2024langgpt,
@@ -385,10 +314,50 @@ If you used or referenced this project, please cite it in the following format:
 }
 ```
 
-## Acknowledgments
-Following projects provided great prompts, which inspired the creation of LangGPT:
+---
 
-* [Mr.-Ranedeer-AI-Tutor](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor) 
-* [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT) 
-* [SoM](https://github.com/SkalskiP/SoM)
-* [yolov10](https://github.com/THU-MIG/yolov10)
+## 🙏 Acknowledgments
+
+LangGPT was inspired by excellent projects:
+
+- [Mr.-Ranedeer-AI-Tutor](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor) — Structured tutoring prompts
+- [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT) — Autonomous AI agents
+- [SoM](https://github.com/SkalskiP/SoM) — Set of Mark prompting
+- [yolov10](https://github.com/THU-MIG/yolov10) — Computer vision innovations
+
+### Projects Built with LangGPT
+
+We're proud to see LangGPT principles applied in the wild:
+- **[Prompt Optimizer](https://github.com/linshenkx/prompt-optimizer)** — Intelligent prompt optimization tool leveraging LangGPT methodology
+- **[securityGPT](https://github.com/rryuliu/securityGPT)** — Secure prompt protection against leaks
+- **[AIPainting-Structured-Prompts](https://github.com/zhutyler21/AIPainting-Structured-Prompts)** — Structured prompts for AI art generation
+
+---
+
+## 📬 Connect With Us
+
+### Author
+
+**云中江树 (Yun Zhong Jiang Shu)**
+- 📱 WeChat Official Account: **「云中江树」**
+- 💼 Creator of LangGPT Framework
+- 🎓 Prompt Engineering Researcher
+
+### Community
+
+- 📚 [Knowledge Base](http://feishu.langgpt.ai) — Comprehensive documentation
+- 🐦 [Twitter/X](https://twitter.com/langgptai) — Latest updates
+- 💬 [GitHub Discussions](https://github.com/langgptai) — Community forum
+- 📧 Email: contact@langgpt.ai
+
+---
+
+<div align="center">
+
+**[⬆ Back to Top](#-langgpt--empowering-everyone-to-create-high-quality-prompts)**
+
+Made with ❤️ by the [langgptai Community](https://github.com/langgptai)
+
+*Empowering everyone to become a prompt expert* 🚀
+
+</div>
