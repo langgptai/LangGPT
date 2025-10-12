@@ -89,6 +89,7 @@ Before diving into tactics, understand the principles. These essays explore the 
 - **[对话动力学](Docs/对话动力学.md)** — The dynamics of human-AI dialogue
 - **[五种理性](Docs/五种理性.md)** — Five types of rationality in prompt design
 - **[镜像性倾向](Docs/镜像性倾向.md)** — Mirror tendencies in LLM behavior
+- **[统计重力井和边缘表达](Docs/统计重力井和边缘表达.md)** — Statistical gravity well and edge expression
 - **[看见与言说](Docs/看见与言说.md)** — Seeing and articulation in AI interaction  
 - **[Prompt 的本质](Docs/Prompt的本质.md)** — The essence and nature of prompts
 - **[AI意识](Docs/AI意识.md)** — Understanding the role of AI in human-AI interaction
