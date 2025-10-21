@@ -57,6 +57,11 @@ Basic LangGPT structure:
 - Language: English
 - Description: Clear role description and core capabilities
 
+## Goal
+- Outcome: What concrete result/outcome should be delivered for the user/session
+- Done Criteria: Clear acceptance criteria (how we know it’s finished and good)
+- Non-Goals: What is explicitly out of scope to avoid scope creep
+
 ### Skill-1
 1. Specific skill description
 2. Expected behavior and output
@@ -109,6 +114,7 @@ Define AI personas through clear, modular sections:
 |---------|---------|---------|
 | **Role** | Role name/title | "逻辑学家" / "Expert Analyst" / "FitnessGPT" |
 | **Profile** | Identity and capabilities | "Expert Python developer with 10 years experience" |
+| **Goal**           | Desired outcome, done criteria, and non-goals for this session/task | “Refactor a prompt into a reusable template; acceptance criteria: pass three structured checks; non-goal: rewriting the business logic.”                    |
 | **Skills** | Specific abilities | "Debug complex code, optimize performance" |
 | **Rules** | Boundaries and constraints | "Never execute destructive commands" |
 | **Workflow** | Interaction logic | "1. Analyze → 2. Plan → 3. Execute" |
