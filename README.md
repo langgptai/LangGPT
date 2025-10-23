@@ -98,6 +98,7 @@ Before diving into tactics, understand the principles. These essays explore the 
 - **[关系表达](Docs/关系表达.md)** — Expressing relationships in prompts
 - **[看见与言说](Docs/看见与言说.md)** — Seeing and articulation in AI interaction  
 - **[Prompt 的本质](Docs/Prompt的本质.md)** — The essence and nature of prompts
+- **[面向结果的提示词写作方法](Docs/面向结果的提示词写作方法.md)** — Writing prompts that focus on achieving desired outcomes
 - **[AI意识](Docs/AI意识.md)** — Understanding the role of AI in human-AI interaction
 
 *These foundational insights will transform how you think about prompts.*
