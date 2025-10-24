@@ -100,6 +100,7 @@ Before diving into tactics, understand the principles. These essays explore the 
 - **[Prompt 的本质](Docs/Prompt的本质.md)** — The essence and nature of prompts
 - **[面向结果的提示词写作方法](Docs/面向结果的提示词写作方法.md)** — Writing prompts that focus on achieving desired outcomes
 - **[AI意识](Docs/AI意识.md)** — Understanding the role of AI in human-AI interaction
+- **[AI时代的新管理：机器负责优化，人类定义应该](Docs/AI时代的新管理：机器负责优化，人类定义应该.md)** — The new management in the AI era: machines optimize, humans define the criteria
 
 *These foundational insights will transform how you think about prompts.*
 
