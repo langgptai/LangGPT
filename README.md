@@ -229,6 +229,13 @@ skills:
 
 ### Model-Specific Prompt Collections
 
+Rather than writing prompts as procedures, write the persona. Writing prompts as procedures gives the model steps and tools. Writing prompts as a persona gives the model a worldview, motivations, a value system, and a preference profile. Below are prompts that Yunzhong Jiangshu wrote while studying some well-known figures. 
+
+* [巴菲特AI分身](Prompts/巴菲特AI分身.md)
+* [梵高AI分身](Prompts/梵高AI分身.md)
+* [马斯克AI分身](Prompts/马斯克AI分身.md)
+* [段永平AI分身](Prompts/段永平AI分身.md)
+
 Curated, optimized prompts for different AI models:
 
 | Collection | Target Model | Stars |

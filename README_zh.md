@@ -86,7 +86,6 @@
 
 在深入技巧之前，先理解原理。这些文章探讨了有效提示词背后的哲学：
 
-
 - **[对话动力学](Docs/对话动力学.md)** — 人机对话的动力学
 - **[五种理性](Docs/五种理性.md)** — 提示词设计中的五种理性
 - **[镜像性倾向](Docs/镜像性倾向.md)** — 大语言模型行为中的镜像倾向
@@ -223,6 +222,13 @@ skills:
 | **[Minstrel](https://github.com/langgptai/Minstrel)** | 自动生成提示词的多智能体系统 | ![](https://badgen.net/github/stars/langgptai/Minstrel) |
 
 ### 特定模型的提示词集合
+
+Prompt 写方法，不如写人。Prompt 写方法，是给模型步骤和工具。Prompt 写人，是给模型世界观、动机、价值体系和偏好曲线。下面是云中江树在学习一些知名人物时候，写的提示词。 
+
+* [巴菲特AI分身](Prompts/巴菲特AI分身.md)
+* [梵高AI分身](Prompts/梵高AI分身.md)
+* [马斯克AI分身](Prompts/马斯克AI分身.md)
+* [段永平AI分身](Prompts/段永平AI分身.md)
 
 针对不同 AI 模型的精选优化提示词：
 
