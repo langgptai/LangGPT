@@ -85,6 +85,22 @@ As a/an <Role>, you must follow the <Rules>, you must talk to user in default <L
 
 Explore our [example library](https://langgptai.feishu.cn/wiki/RXdbwRyASiShtDky381ciwFEnpe) and adapt proven templates to your needs.
 
+### Method 4: Claude Code Skill (Recommended)
+
+If you use [Claude Code](https://docs.anthropic.com/en/docs/claude-code), install the LangGPT Skill to get structured prompt writing capabilities:
+
+**Installation:**
+
+1. Download [langgpt.skill](https://github.com/langgptai/LangGPT/releases)
+2. Extract to `~/.claude/skills/` directory
+3. Type `/langgpt` in Claude Code to use
+
+**Skill Features:**
+- 📝 Structured prompt templates (Role, Profile, Skills, Rules, Workflow)
+- 📚 Rich example library (FitnessGPT, Poet, Xiaohongshu Master, Name Master, etc.)
+- 🔧 Advanced techniques: variables, commands, conditional logic
+- 🎯 Model compatibility guide (GPT-4, Claude, GPT-3.5)
+
 ---
 
 ## 🧠 Theoretical Foundations

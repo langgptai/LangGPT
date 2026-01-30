@@ -80,6 +80,22 @@
 
 浏览我们的[示例库](https://langgptai.feishu.cn/wiki/RXdbwRyASiShtDky381ciwFEnpe)，根据需求改编经过验证的模板。
 
+### 方法四：Claude Code Skill（推荐）
+
+如果你使用 [Claude Code](https://docs.anthropic.com/en/docs/claude-code)，可以安装 LangGPT Skill 来获得结构化提示词编写能力：
+
+**安装方式：**
+
+1. 下载 [langgpt.skill](https://github.com/langgptai/LangGPT/releases)
+2. 解压到 `~/.claude/skills/` 目录
+3. 在 Claude Code 中输入 `/langgpt` 即可使用
+
+**Skill 功能：**
+- 📝 结构化提示词模板（Role、Profile、Skills、Rules、Workflow）
+- 📚 丰富的示例库（健身规划、诗歌创作、小红书写手、起名大师等）
+- 🔧 变量、命令、条件逻辑等高级技巧
+- 🎯 模型兼容性指南（GPT-4、Claude、GPT-3.5）
+
 ---
 
 ## 🧠 理论基础
