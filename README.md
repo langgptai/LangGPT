@@ -126,6 +126,7 @@ Before diving into tactics, understand the principles. These essays explore the 
 - **[面向结果的提示词写作方法](Docs/面向结果的提示词写作方法.md)** — Writing prompts that focus on achieving desired outcomes
 - **[AI意识](Docs/AI意识.md)** — Understanding the role of AI in human-AI interaction
 - **[AI时代的新管理：机器负责优化，人类定义应该](Docs/AI时代的新管理：机器负责优化，人类定义应该.md)** — The new management in the AI era: machines optimize, humans define the criteria
+- **[AI Native 组织 · 思考碎片](Docs/AI%20Native组织-思考碎片.md)** — Fragments on organizational restructuring in the AI-native era
 
 *These foundational insights will transform how you think about prompts.*
 
