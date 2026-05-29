@@ -80,6 +80,31 @@ AIにプロンプトを作成させる：
 
 [サンプルライブラリ](https://langgptai.feishu.cn/wiki/RXdbwRyASiShtDky381ciwFEnpe)を探索し、実証済みのテンプレートをニーズに合わせて調整してください。
 
+### 方法4: Claude Code Skill（推奨）
+
+[Claude Code](https://docs.anthropic.com/en/docs/claude-code) を使用している場合、LangGPT Skill をインストールすると、構造化プロンプトの作成機能を利用できます。
+
+**公式マーケットプレイス経由でインストール（推奨）：**
+
+```bash
+/plugin marketplace add langgptai/claude_marketplace
+/plugin install structured-prompt-writer@langgpt
+```
+
+[LangGPT マーケットプレイス](https://github.com/langgptai/claude_marketplace) には、雲中江樹が磨き上げた実戦的なスキルも収録されています — `awesome-design-html`（115 種のブランドテーマ別デザインリファレンス）、`cto`、`mind-clone`。
+
+**または手動でインストール：**
+
+1. [langgpt.skill](https://github.com/langgptai/LangGPT/releases) をダウンロード
+2. `~/.claude/skills/` ディレクトリに展開
+3. Claude Code で `/langgpt` と入力して使用
+
+**Skill の機能：**
+- 📝 構造化プロンプトテンプレート（Role、Profile、Skills、Rules、Workflow）
+- 📚 豊富なサンプルライブラリ（フィットネス計画、詩作、小紅書ライター、命名マスターなど）
+- 🔧 変数、コマンド、条件ロジックなどの高度なテクニック
+- 🎯 モデル互換性ガイド（GPT-4、Claude、GPT-3.5）
+
 ---
 
 ## 🧠 理論的基礎
@@ -221,6 +246,7 @@ skills:
 | **[PromptVer](https://github.com/langgptai/PromptVer)** | プロンプトのセマンティックバージョニング — Gitのようなバージョン管理 | ![](https://badgen.net/github/stars/langgptai/PromptVer) |
 | **[PromptShow](https://github.com/langgptai/PromptShow)** | 美しいプロンプト画像を作成（[試す](https://show.langgpt.ai/)） | ![](https://badgen.net/github/stars/langgptai/PromptShow) |
 | **[Minstrel](https://github.com/langgptai/Minstrel)** | プロンプト自動生成のためのマルチエージェントシステム | ![](https://badgen.net/github/stars/langgptai/Minstrel) |
+| **[claude_marketplace](https://github.com/langgptai/claude_marketplace)** | 公式 Claude Code スキルマーケットプレイス — 構造化プロンプト、デザイン、CTO、mind-clone | ![](https://badgen.net/github/stars/langgptai/claude_marketplace) |
 
 ### モデル固有のプロンプトコレクション
 

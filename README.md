@@ -89,7 +89,16 @@ Explore our [example library](https://langgptai.feishu.cn/wiki/RXdbwRyASiShtDky3
 
 If you use [Claude Code](https://docs.anthropic.com/en/docs/claude-code), install the LangGPT Skill to get structured prompt writing capabilities:
 
-**Installation:**
+**Install via the official marketplace (recommended):**
+
+```bash
+/plugin marketplace add langgptai/claude_marketplace
+/plugin install structured-prompt-writer@langgpt
+```
+
+The [LangGPT marketplace](https://github.com/langgptai/claude_marketplace) also ships more battle-tested skills by Yunzhong Jiangshu — `awesome-design-html` (115 brand-themed design references), `cto`, and `mind-clone`.
+
+**Or install manually:**
 
 1. Download [langgpt.skill](https://github.com/langgptai/LangGPT/releases)
 2. Extract to `~/.claude/skills/` directory
@@ -242,6 +251,7 @@ skills:
 | **[PromptVer](https://github.com/langgptai/PromptVer)** | Semantic versioning for prompts — version control like Git | ![](https://badgen.net/github/stars/langgptai/PromptVer) |
 | **[PromptShow](https://github.com/langgptai/PromptShow)** | Create beautiful prompt images ([Try it](https://show.langgpt.ai/)) | ![](https://badgen.net/github/stars/langgptai/PromptShow) |
 | **[Minstrel](https://github.com/langgptai/Minstrel)** | Multi-agent system for auto-generating prompts | ![](https://badgen.net/github/stars/langgptai/Minstrel) |
+| **[claude_marketplace](https://github.com/langgptai/claude_marketplace)** | Official Claude Code skill marketplace — structured prompt, design, CTO, mind-clone | ![](https://badgen.net/github/stars/langgptai/claude_marketplace) |
 
 ### Model-Specific Prompt Collections
 
