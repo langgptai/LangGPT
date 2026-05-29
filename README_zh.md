@@ -84,7 +84,16 @@
 
 如果你使用 [Claude Code](https://docs.anthropic.com/en/docs/claude-code)，可以安装 LangGPT Skill 来获得结构化提示词编写能力：
 
-**安装方式：**
+**通过官方技能市场安装（推荐）：**
+
+```bash
+/plugin marketplace add langgptai/claude_marketplace
+/plugin install structured-prompt-writer@langgpt
+```
+
+[LangGPT 技能市场](https://github.com/langgptai/claude_marketplace) 还收录了云中江树打磨的更多实战技能 —— `awesome-design-html`（115 套品牌主题设计参考）、`cto`、`mind-clone`。
+
+**或手动安装：**
 
 1. 下载 [langgpt.skill](https://github.com/langgptai/LangGPT/releases)
 2. 解压到 `~/.claude/skills/` 目录
@@ -236,6 +245,7 @@ skills:
 | **[PromptVer](https://github.com/langgptai/PromptVer)** | 提示词的语义化版本控制 — 像 Git 一样的版本管理 | ![](https://badgen.net/github/stars/langgptai/PromptVer) |
 | **[PromptShow](https://github.com/langgptai/PromptShow)** | 创建精美的提示词图片（[试试看](https://show.langgpt.ai/)） | ![](https://badgen.net/github/stars/langgptai/PromptShow) |
 | **[Minstrel](https://github.com/langgptai/Minstrel)** | 自动生成提示词的多智能体系统 | ![](https://badgen.net/github/stars/langgptai/Minstrel) |
+| **[claude_marketplace](https://github.com/langgptai/claude_marketplace)** | 官方 Claude Code 技能市场 —— 结构化提示词、设计、CTO、心智克隆 | ![](https://badgen.net/github/stars/langgptai/claude_marketplace) |
 
 ### 特定模型的提示词集合
 
