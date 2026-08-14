@@ -360,7 +360,7 @@ New to GitHub contributions? Check out this [GitHub Minimal Contribution Guide](
 
 ## 📊 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=langgptai/LangGPT&type=Date)](https://star-history.com/#langgptai/LangGPT&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=langgptai/LangGPT&type=Date)](https://star-history.dera.page/#langgptai/LangGPT&Date)
 
 ---
 

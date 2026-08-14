@@ -347,7 +347,7 @@ GitHubへの貢献は初めてですか？この[GitHub最小貢献ガイド](ht
 
 ## 📊 スター履歴
 
-[![Star History Chart](https://api.star-history.com/svg?repos=langgptai/LangGPT&type=Date)](https://star-history.com/#langgptai/LangGPT&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=langgptai/LangGPT&type=Date)](https://star-history.dera.page/#langgptai/LangGPT&Date)
 
 ---
 

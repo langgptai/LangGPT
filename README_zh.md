@@ -354,7 +354,7 @@ Prompt 写方法，不如写人。Prompt 写方法，是给模型步骤和工具
 
 ## 📊 Star 历史
 
-[![Star History Chart](https://api.star-history.com/svg?repos=langgptai/LangGPT&type=Date)](https://star-history.com/#langgptai/LangGPT&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=langgptai/LangGPT&type=Date)](https://star-history.dera.page/#langgptai/LangGPT&Date)
 
 ---
 
