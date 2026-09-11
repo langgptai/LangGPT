@@ -151,6 +151,7 @@ Before diving into tactics, understand the principles. These essays explore the 
 - **[文字思考和数学思考](Docs/文字思考和数学思考.md)** — Three ways of thinking as nested projections: an LLM drifts through continuous high-dimensional space, words snap it onto a discrete lattice, math locks it into an axiom system — the more precise the mode, the narrower its reach, and thought always overflows whatever describes it
 - **[去除AI味儿](Docs/去除AI味儿.md)** — The smell of AI writing is the posture of language standing in for content and judgment: meta-commentary, defensive hedging, piled-up examples, forced symmetry, borrowed grandeur — a prompt to strip them all, plus the test of what survives
 - **[语言层差和行业语言](Docs/语言层差和行业语言.md)** — You live on the level of symptoms while AI's best knowledge lives on the level of essence: say "make it pretty" and you get mediocrity, say "establish visual hierarchy" and you get a system — you need not learn the trade language first, let AI translate and learn as it does, the only skill to build is noticing the moment you are speaking in symptoms
+- **[语言控制学](Docs/语言控制学.md)** — Linguistic Cybernetics as an axiomatic system: five axioms, 30 definitions, 29 theorems — a prompt is a constraint signal that reshapes the model's possibility space, control power is bounded, feedback converges or degenerates, multi-objective goals hit a Pareto frontier — and the bottleneck is never the model but whether you can translate vague intent into a precise signal
 
 *These foundational insights will transform how you think about prompts.*
 
